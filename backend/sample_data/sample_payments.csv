@@ -1,0 +1,630 @@
+Invoice #,Vendor Name,Invoice Amount,Transaction Date,Entry Date,Posting Timestamp,Description,Department
+INV-11476,Ünïcode Vendörs Ltd.,24097.29,2024-04-15T00:00:00,15-Apr-2024,2024-04-15 11:29:00,  Purchase order for Ünïcode Vendörs Ltd.  ,Procurement
+INV-11142,Stark Materials Co.,8657.00,2024-08-10T00:00:00,2024-08-10,2024-08-10 14:28:00,Purchase order for Stark Materials Co.,Finance
+INV-10485,Initech Consulting,41474.11,27/11/2023,02-Dec-2023,2023-11-27 07:04:00,Purchase order for Initech Consulting,Operations
+INV-10318,Ünïcode Vendörs Ltd.,"30,792.77","November 19, 2024",20/11/2024,2024-11-19 07:47:00,Purchase order for Ünïcode Vendörs Ltd.,IT
+INV-10194,Globex Industrial,35583.48,10/14/2024,15-Oct-2024,2024-10-14 13:57:00,Purchase order for Globex Industrial,Procurement
+INV-11383,Umbrella Logistics,"$18,459.34","March 11, 2023",11-Mar-2023,2023-03-11 06:53:00,After-hours entry test,IT
+INV-10801,  Pied Piper Compression  ,"$42,062.83",2023-04-16,2023-04-18,2023-04-16 18:25:00,Purchase order for Pied Piper Compression,NaN
+INV-11302,Weyland-Yutani Corp,28362.89,12/25/2024,25-Dec-2024,2024-12-25 13:00:00,Holiday posting test,Operations
+INV-10397,Initech Consulting,30365.84,21-Jan-2023,2023-01-24,2023-01-21 08:25:00,Purchase order for Initech Consulting,Marketing
+INV-10533,Sterling Cooper Ads, 0.01 ,2023-09-06T00:00:00,2023-09-06T00:00:00,2023-09-06 09:00:00,Outlier stress test,Finance
+INV-11447,Globex Industrial,"41,336.07",2023-08-10T00:00:00,2023-08-14T00:00:00,2023-08-10 09:00:00,  Purchase order for Globex Industrial  ,Procurement
+INV-11036,Hooli Cloud Services,"$40,697.22",23-Jul-2024,2024-07-26T00:00:00,2024-07-23 09:26:00,Purchase order for Hooli Cloud Services,Marketing
+INV-10581,Dunder Mifflin Paper,"$36,231.65",03-Aug-2023,2023-08-04T00:00:00,2023-08-03 15:56:00,Purchase order for Dunder Mifflin Paper,--
+INV-10235,Wonka Distribution,"38,309.77","April 15, 2023",16/04/2023,2023-04-15 18:39:00,Purchase order for Wonka Distribution,Operations
+INV-10237,Umbrella Logistics,25281.68,2024-06-04T00:00:00,"June 04, 2024",2024-06-04 10:00:00,Possible duplicate payment,Finance
+INV-11287,Prestige Worldwide,37019.02,09/27/2024,2024-09-28T00:00:00,2024-09-27 17:00:00,Purchase order for Prestige Worldwide,Marketing
+INV-10974,Sterling Cooper Ads,28558.07,2024-01-14,01/17/2024,2024-01-14 14:30:00,Purchase order for Sterling Cooper Ads,Operations
+INV-10825,Gekko & Co Capital, 5943.12 ,12/19/2023,19/12/2023,2023-12-19 10:00:00,Possible duplicate payment,Finance
+INV-10317,Tyrell Corporation,"36,174.34",2023-04-11T00:00:00,2023-04-16,2023-04-11 07:26:00,Purchase order for Tyrell Corporation,--
+INV-10702,Fabrikam Supplies,23500.00,12/15/2024,2024-12-15,2024-12-15 14:00:00,Round dollar test,Procurement
+INV-10920,Weyland-Yutani Corp,1986662.94,22/10/2024,22-Oct-2024,2024-10-22 09:00:00,Vendor concentration test,None
+INV-11005,Genco Pura Olive Oil,19250.50,2024-06-14,2024-06-14T00:00:00,2024-06-14 21:03:00,After-hours entry test,N/A
+INV-11496,Cyberdyne Systems,13782.03,04/03/2023,04-Mar-2023,2023-03-04 01:06:00,After-hours entry test,IT
+INV-10330,Wayne Enterprises,21638.97,"November 07, 2023","November 07, 2023",2023-11-07 08:23:00,Purchase order for Wayne Enterprises,IT
+INV-10737,Cyberdyne Systems,2446.14,20/09/2023,2023-09-25T00:00:00,2023-09-20 15:39:00,Purchase order for Cyberdyne Systems,Finance
+INV-10996,Fabrikam Supplies,35032.05,2023-02-01T00:00:00,02/02/2023,2023-02-01 10:40:00,Purchase order for Fabrikam Supplies,Finance
+INV-10740,Aperture Science,"33,564.01",11-Sep-2023,2023-09-11T00:00:00,2023-09-11 13:11:00,--,Marketing
+INV-10852,Globex Industrial, 37409.25 ,2024-05-11,05/11/2024,2024-05-11 11:00:00,Weekend posting test,Operations
+INV-10444,北京贸易公司,"30,445.31",12-Dec-2024,2024-12-13,2024-12-12 16:55:00,Purchase order for 北京贸易公司,Marketing
+INV-10151,Pied Piper Compression,"30,842.44",06/26/2023,29/06/2023,2023-06-26 10:08:00,Purchase order for Pied Piper Compression,Finance
+INV-10453,Initech Consulting,"$23,442.81",2023-11-03,2023-11-08T00:00:00,2023-11-03 11:04:00,Purchase order for Initech Consulting,Procurement
+INV-10838,Gekko & Co Capital,"31,466.39",2024-12-06T00:00:00,"December 10, 2024",2024-12-06 07:42:00,Purchase order for Gekko & Co Capital,Procurement
+INV-10257,Tyrell Corporation,"$29,697.28",2023-06-27,30/06/2023,2023-06-27 17:45:00,Purchase order for Tyrell Corporation,NA
+INV-11135,Umbrella Logistics,32117.18,23-Sep-2023,09/26/2023,2023-09-23 12:58:00,Purchase order for Umbrella Logistics,NA
+INV-10811,Prestige Worldwide, 13167.58 ,04-May-2024,"May 09, 2024",2024-05-04 14:44:00,Purchase order for Prestige Worldwide,None
+INV-11183,Initech Consulting,5624.76,2023-11-07,11/11/2023,2023-11-07 18:06:00,Purchase order for Initech Consulting,IT
+INV-10120,Los Pollos Hermanos,20851.10,N/A,04/02/2023,2023-02-04 16:37:00,Purchase order for Los Pollos Hermanos,
+INV-10435,Hooli Cloud Services,"$18,722.97",18-Dec-2023,12/22/2023,2023-12-18 08:30:00,Purchase order for Hooli Cloud Services,Facilities
+INV-10812,Umbrella Logistics,31244.94,10/01/2023,2023-10-03T00:00:00,2023-10-01 07:14:00,Purchase order for Umbrella Logistics,
+INV-10841,Fabrikam Supplies, 30967.36 ,2023-04-28,2023-05-02T00:00:00,2023-04-28 10:29:00,,None
+INV-11176,Acme Global Holdings,"$6,968.14","October 03, 2024",05-Oct-2024,2024-10-03 16:07:00,Purchase order for Acme Global Holdings,Operations
+INV-11179,Prestige Worldwide,42358.32,16-Oct-2023,20/10/2023,2023-10-16 09:38:00,Purchase order for Prestige Worldwide,Operations
+INV-10133,Hooli Cloud Services,"$33,595.02",10/09/2023,12/10/2023,2023-10-09 10:12:00,Purchase order for Hooli Cloud Services,Marketing
+INV-10745,Dunder Mifflin Paper,"$43,548.23",07/23/2023,2023-07-23,2023-07-23 15:30:00,  Purchase order for Dunder Mifflin Paper  ,Operations
+INV-10882,🚀 Rocket Supplies Inc.,1394.94,2024-03-13T00:00:00,"June 08, 2024",2024-06-08 09:00:00,Backdated entry test,Finance
+INV-11416,Los Pollos Hermanos,"$197,162.29",2023-10-22T00:00:00,22-Oct-2023,2023-10-22 15:00:00,Materiality breach test,Finance
+INV-11487,  Gekko & Co Capital  ,720.31,2023-07-31T00:00:00,"August 03, 2023",2023-07-31 12:05:00,Purchase order for Gekko & Co Capital,
+INV-10105,Oscorp Chemical,"25,586.07",03-Apr-2023,"April 06, 2023",2023-04-03 15:08:00,Purchase order for Oscorp Chemical,Marketing
+INV-10468,Vandelay Industries,6723.71,"March 04, 2023",2023-03-09,2023-03-04 13:05:00,Purchase order for Vandelay Industries,IT
+INV-11317,北京贸易公司,29060.22,2023-12-10T00:00:00,12/12/2023,2023-12-10 15:20:00,  Purchase order for 北京贸易公司  ,IT
+INV-10089,  北京贸易公司  ,30805.04,03/04/2024,2024-03-05T00:00:00,2024-03-04 15:49:00,Purchase order for 北京贸易公司,Procurement
+INV-10891,Northwind Traders,"24,884.74",09/26/2023,2023-09-28T00:00:00,2023-09-26 09:39:00,Purchase order for Northwind Traders,Finance
+INV-10931,Bluth Company,30005.96,12/25/2023,12/26/2023,2023-12-25 07:20:00,Purchase order for Bluth Company,Procurement
+INV-10732,Genco Pura Olive Oil (New), 34306.44 ,2024-09-25,2024-09-25T00:00:00,2024-09-25 09:00:00,New vendor high value test,Procurement
+INV-10319,Stark Materials Co.,15695.35,"October 27, 2023",29/10/2023,2023-10-27 10:11:00,Purchase order for Stark Materials Co.,IT
+INV-10282,Acme Global Holdings,"12,768.89",2024-01-03,01/07/2024,2024-01-03 12:20:00,Purchase order for Acme Global Holdings,Operations
+INV-10738,  Contoso Manufacturing  ,"$10,841.90",04/26/2023,29/04/2023,2023-04-26 16:56:00,  Purchase order for Contoso Manufacturing  ,Operations
+INV-10516,Prestige Worldwide,4549.61,04-Jun-2024,"June 08, 2024",2024-06-04 14:06:00,Purchase order for Prestige Worldwide,
+INV-10061,Globex Industrial,36679.02,"April 06, 2024",2024-04-06,2024-04-06 11:10:00,Purchase order for Globex Industrial,NaN
+INV-11270,Umbrella Logistics,7469.73,03-Feb-2023,02/06/2023,2023-02-03 09:10:00,Purchase order for Umbrella Logistics,IT
+INV-10892,Hooli Cloud Services,17040.65,04/25/2023,25/04/2023,2023-04-25 10:00:00,Possible duplicate payment,Finance
+INV-10559,Fabrikam Supplies,9441.59,30/05/2024,"June 04, 2024",2024-05-30 18:12:00,Purchase order for Fabrikam Supplies,Finance
+INV-11375,Hooli Cloud Services,31509.98,2023-06-05,06/08/2023,2023-06-05 07:22:00,-,
+INV-10767,  Weyland-Yutani Corp  ,43990.71,"September 26, 2023",26/09/2023,2023-09-26 09:28:00,Purchase order for Weyland-Yutani Corp,Marketing
+INV-10563,Los Pollos Hermanos,20469.55,12/30/2024,02/01/2025,2024-12-30 17:05:00,Purchase order for Los Pollos Hermanos,null
+INV-11353,  Vandelay Industries  ,"$22,412.64",2024-06-01T00:00:00,"June 04, 2024",2024-06-01 08:25:00,Purchase order for Vandelay Industries,
+INV-10438,  Fabrikam Supplies  ,"32,051.69",12/31/2023,2024-01-01,2023-12-31 13:41:00,Purchase order for Fabrikam Supplies,Facilities
+INV-10917,Stark Materials Co.,1404.10,01/16/2023,01/16/2023,2023-01-16 17:57:00,Purchase order for Stark Materials Co.,Finance
+INV-11170,🚀 Rocket Supplies Inc.,17056.38,07/07/2024,07/09/2024,2024-07-07 07:30:00,  Purchase order for 🚀 Rocket Supplies Inc.  ,Finance
+INV-10273,Umbrella Logistics, 17500.00 ,"August 01, 2023",08/01/2023,2023-08-01 14:00:00,Round dollar test,Procurement
+INV-10315,🚀 Rocket Supplies Inc.,36139.30,"September 01, 2023",2023-09-01,2023-09-01 05:51:00,After-hours entry test,IT
+INV-11444,Wonka Distribution, 31154.70 ,2023-02-13,16-Feb-2023,2023-02-13 17:59:00,  Purchase order for Wonka Distribution  ,None
+INV-10348,Tyrell Corporation,36534.14,"March 20, 2024",2024-03-22,2024-03-20 09:34:00,Purchase order for Tyrell Corporation,Finance
+INV-10115,Prestige Worldwide,36492.44,12/05/2023,"December 08, 2023",2023-12-05 13:37:00,Purchase order for Prestige Worldwide,Marketing
+INV-10240,Hooli Cloud Services,"$17,040.65",24-Apr-2023,24/04/2023,2023-04-24 10:00:00,Possible duplicate payment,Finance
+INV-10137,Wonka Distribution,"$9,964.32",2024-06-13T00:00:00,17-Jun-2024,2024-06-13 10:30:00,Purchase order for Wonka Distribution,Facilities
+INV-10866,Vandelay Industries,32966.41,03-Jul-2023,04/07/2023,2023-07-03 17:34:00,Purchase order for Vandelay Industries,Procurement
+INV-11045,Ünïcode Vendörs Ltd.,5629.63,2023-12-23,2023-12-26T00:00:00,2023-12-23 11:25:00,Purchase order for Ünïcode Vendörs Ltd.,null
+INV-11324,Hooli Cloud Services,"23,764.09",2024-07-25T00:00:00,07/25/2024,2024-07-25 16:18:00,Purchase order for Hooli Cloud Services,Finance
+INV-10109,Soylent Foods Ltd.,5733.18,24/01/2024,"January 28, 2024",2024-01-24 09:13:00,  Purchase order for Soylent Foods Ltd.  ,IT
+INV-11396,  Massive Dynamic  ,33046.62,"October 06, 2023",06-Oct-2023,2023-10-06 10:39:00,Purchase order for Massive Dynamic,IT
+INV-10730,Aperture Science,"$13,606.12",07/10/2024,2024-10-07T00:00:00,2024-10-07 12:35:00,Purchase order for Aperture Science,Facilities
+INV-10419,Cyberdyne Systems,9855.90,2024-01-25T00:00:00,27/01/2024,2024-01-25 15:18:00,Purchase order for Cyberdyne Systems,NaN
+INV-10075,Contoso Manufacturing,"21,461.26","June 16, 2024","June 17, 2024",2024-06-16 14:45:00,Purchase order for Contoso Manufacturing,IT
+INV-11221,Prestige Worldwide,"$14,134.14","July 14, 2024",2024-07-18,2024-07-14 16:31:00,Purchase order for Prestige Worldwide,IT
+INV-11034,Massive Dynamic, 8539.73 ,-,06/18/2024,2024-06-16 08:23:00,Purchase order for Massive Dynamic,Marketing
+INV-11403,Massive Dynamic,"$33,588.55",2024-05-06T00:00:00,2024-05-09,2024-05-06 15:18:00,Purchase order for Massive Dynamic,Finance
+INV-10378,Gekko & Co Capital,22211.44,2024-03-13T00:00:00,2024-03-13T00:00:00,2024-03-13 10:30:00,Purchase order for Gekko & Co Capital,Finance
+INV-10924,  Wonka Distribution  ,"$6,431.46",2024-05-05,2024-05-05T00:00:00,2024-05-05 09:14:00,Purchase order for Wonka Distribution,
+INV-10447,Cyberdyne Systems,42813.97,10/06/2023,07/12/2023,2023-12-07 09:00:00,Backdated entry test,Finance
+INV-11157,Gekko & Co Capital,41080.94,"September 24, 2023",2023-09-28,2023-09-24 18:32:00,NA,Operations
+INV-10988,Contoso Manufacturing,36621.29,"November 22, 2024",22-Nov-2024,2024-11-22 10:55:00,  Purchase order for Contoso Manufacturing  ,Finance
+INV-10904,Tyrell Corporation,503.43,06/17/2023,"June 18, 2023",2023-06-17 14:52:00,Purchase order for Tyrell Corporation,Procurement
+INV-11365,Umbrella Logistics,32080.21,2024-11-05T00:00:00,08-Nov-2024,2024-11-05 10:12:00,Purchase order for Umbrella Logistics,Operations
+INV-10175,Umbrella Logistics,"20,789.61","December 30, 2024",04/01/2025,2024-12-30 10:00:00,Purchase order for Umbrella Logistics,Procurement
+INV-11335,Bluth Company,17732.97,"August 22, 2024","August 22, 2024",2024-08-22 08:45:00,Purchase order for Bluth Company,Operations
+INV-11475,Aperture Science,2209.40,11-Feb-2024,02/12/2024,2024-02-11 10:20:00,Purchase order for Aperture Science,Finance
+INV-11177,Northwind Traders,6089.01,05/01/2024,2024-01-08T00:00:00,2024-01-05 15:00:00,  Purchase order for Northwind Traders  ,Operations
+INV-10400,🚀 Rocket Supplies Inc.,"$29,039.52",09/24/2023,09/26/2023,2023-09-24 15:06:00,Purchase order for 🚀 Rocket Supplies Inc.,
+INV-10792,  Tyrell Corporation  ,39165.88,2024-10-02T00:00:00,2024-10-06,2024-10-02 08:47:00,Purchase order for Tyrell Corporation,Operations
+INV-10847,Wonka Distribution,5414.17,14/01/2023,2023-01-14,2023-01-14 13:27:00,Purchase order for Wonka Distribution,Finance
+INV-10335,Aperture Science,"33,457.28",25/09/2024,2024-09-30,2024-09-25 08:30:00,Purchase order for Aperture Science,N/A
+INV-10356,Northwind Traders, 10430.51 ,2024-04-01,2024-04-06T00:00:00,2024-04-01 16:50:00,  Purchase order for Northwind Traders  ,Procurement
+INV-11000,Cyberdyne Systems,18343.86,2024-04-06,07/04/2024,2024-04-06 18:04:00,--,Procurement
+INV-10292,Initech Consulting,"79,735.64",21/05/2023,"May 21, 2023",2023-05-21 15:00:00,Materiality breach test,Finance
+INV-11007,Pied Piper Compression,"20,077.04",08/13/2023,2023-08-17,2023-08-13 14:43:00,Purchase order for Pied Piper Compression,IT
+INV-10027,Gekko & Co Capital, 5943.12 ,12/24/2023,12/24/2023,2023-12-24 10:00:00,Possible duplicate payment,NA
+INV-10537,Pied Piper Compression,-,03/07/2024,03/09/2024,2024-03-07 17:32:00,Purchase order for Pied Piper Compression,Facilities
+INV-10396,Bluth Company,8616.31,07/16/2024,2024-07-21T00:00:00,2024-07-16 14:28:00,Purchase order for Bluth Company,Operations
+INV-11199,Genco Pura Olive Oil,16782.68,2023-09-22T00:00:00,2023-09-25T00:00:00,2023-09-22 15:39:00,NaN,
+INV-11171,Fabrikam Supplies,"40,873.87",11-Jul-2023,07/12/2023,2023-07-11 12:59:00,--,Operations
+INV-11205,Los Pollos Hermanos,13610.93,2024-02-12T00:00:00,"February 14, 2024",2024-02-12 14:14:00,Purchase order for Los Pollos Hermanos,Marketing
+INV-11138,Tyrell Corporation,"33,782.80",2023-11-19,"January 10, 2024",2024-01-10 09:00:00,Backdated entry test,Finance
+INV-10234,Initech Consulting,38760.15,08/04/2023,"September 30, 2023",2023-09-30 09:00:00,Backdated entry test,null
+INV-10757,Massive Dynamic,32126.45,02/05/2023,02-May-2023,2023-05-02 12:42:00,Purchase order for Massive Dynamic,
+INV-10083,Fabrikam Supplies, 38229.21 ,2023-11-16T00:00:00,"November 17, 2023",2023-11-16 08:47:00,Purchase order for Fabrikam Supplies,Marketing
+INV-11247,Gekko & Co Capital,17598.22,11/10/2024,"November 11, 2024",2024-11-10 09:11:00,N/A,NA
+INV-11422,Umbrella Logistics,"13,692.77",09/17/2024,20-Sep-2024,2024-09-17 17:44:00,Purchase order for Umbrella Logistics,Finance
+INV-10733,Ünïcode Vendörs Ltd.,27185.05,2024-03-07,"March 11, 2024",2024-03-07 16:05:00,Purchase order for Ünïcode Vendörs Ltd.,
+INV-11434,Cyberdyne Systems,32950.62,2024-10-05T00:00:00,05/10/2024,2024-10-05 11:00:00,Weekend posting test,Operations
+INV-10104,Stark Materials Co., 11329.85 ,2023-08-13,08/14/2023,2023-08-13 09:00:00,Duplicate test group 4 copy 1,Procurement
+INV-11034,Massive Dynamic, 8539.73 ,16-Jun-2024,06/18/2024,2024-06-16 08:23:00,Purchase order for Massive Dynamic,Marketing
+INV-10087,Tyrell Corporation,"$35,139.69",2024-02-05T00:00:00,06/02/2024,2024-02-05 07:58:00,Purchase order for Tyrell Corporation,Marketing
+INV-10032,Genco Pura Olive Oil,"$11,384.45",30/03/2024,04/02/2024,2024-03-30 11:15:00,Purchase order for Genco Pura Olive Oil,Procurement
+INV-10017,  Cyberdyne Systems  ,2449.59,08-Feb-2024,2024-02-12,2024-02-08 13:26:00,Purchase order for Cyberdyne Systems,-
+INV-11154,Globex Industrial,10342.98,07/09/2023,2023-09-09T00:00:00,2023-09-07 16:51:00,Purchase order for Globex Industrial,Marketing
+INV-11357,Massive Dynamic,21369.41,13-Feb-2023,"February 14, 2023",2023-02-13 09:49:00,Purchase order for Massive Dynamic,Facilities
+INV-11265,Dunder Mifflin Paper, 40231.73 ,09/12/2024,"September 16, 2024",2024-09-12 15:34:00,Purchase order for Dunder Mifflin Paper,Facilities
+INV-10934,  Wonka Distribution  ,"$16,950.79",02-Sep-2024,2024-09-06,2024-09-02 17:53:00,Purchase order for Wonka Distribution,NA
+INV-10326,Gekko & Co Capital,$256.42,2024-03-05T00:00:00,03/06/2024,2024-03-05 17:37:00,Purchase order for Gekko & Co Capital,
+INV-11134,Dunder Mifflin Paper,10780.16,04/07/2024,04/07/2024,2024-07-04 13:00:00,Holiday posting test,Operations
+INV-10042,Bluth Company,26854.81,12/03/2023,2023-03-13,2023-03-12 15:12:00,Purchase order for Bluth Company,Marketing
+INV-10222,Northwind Traders,"$8,397.40",07-Jan-2024,01/10/2024,2024-01-07 17:27:00,Purchase order for Northwind Traders,Marketing
+INV-11107,🚀 Rocket Supplies Inc.,27520.53,"July 13, 2024",14/07/2024,2024-07-13 12:44:00,  Purchase order for 🚀 Rocket Supplies Inc.  ,Marketing
+INV-11278,Los Pollos Hermanos,11974.62,"July 13, 2023",07/14/2023,2023-07-13 09:00:00,Duplicate test group 3 copy 0,Procurement
+INV-11232,Ünïcode Vendörs Ltd.,"$26,866.09","April 01, 2024",2024-04-06,2024-04-01 11:27:00,Purchase order for Ünïcode Vendörs Ltd.,IT
+INV-10248,Bluth Company,43067.69,16/08/2024,2024-08-19T00:00:00,2024-08-16 14:53:00,Purchase order for Bluth Company,IT
+INV-11258,Acme Global Holdings,44303.63,2024-12-16T00:00:00,"December 19, 2024",2024-12-16 13:54:00,Purchase order for Acme Global Holdings,Marketing
+INV-11432,Genco Pura Olive Oil,8334.38,06-Jan-2023,07-Jan-2023,2023-01-06 09:00:00,Duplicate test group 1 copy 1,Procurement
+INV-10539,Sterling Cooper Ads,34774.58,27/11/2023,11/28/2023,2023-11-27 17:45:00,Purchase order for Sterling Cooper Ads,Marketing
+INV-11384,Genco Pura Olive Oil,"41,250.98",2024-09-08,2024-09-11,2024-09-08 07:01:00,Purchase order for Genco Pura Olive Oil,
+INV-11468,Tyrell Corporation,"$16,617.83","April 11, 2024",2024-04-14,2024-04-11 07:44:00,Purchase order for Tyrell Corporation,
+INV-11237,Contoso Manufacturing,"20,635.22",2024-09-15T00:00:00,18/09/2024,2024-09-15 10:19:00,Purchase order for Contoso Manufacturing,
+INV-11037,  Soylent Foods Ltd.  ,"$32,452.31","May 18, 2023",19/05/2023,2023-05-18 08:59:00,Purchase order for Soylent Foods Ltd.,Marketing
+INV-10729,  Contoso Manufacturing  ,8178.48,11/01/2023,11/05/2023,2023-11-01 12:09:00,Purchase order for Contoso Manufacturing,None
+INV-10120,Los Pollos Hermanos,20851.10,04-Feb-2023,04/02/2023,2023-02-04 16:37:00,Purchase order for Los Pollos Hermanos,
+INV-10055,Wonka Distribution,27987.78,07/12/2023,10-Dec-2023,2023-12-07 08:30:00,Purchase order for Wonka Distribution,Operations
+INV-10760,🚀 Rocket Supplies Inc.,25818.93,26-May-2023,2023-05-30T00:00:00,2023-05-26 11:11:00,Purchase order for 🚀 Rocket Supplies Inc.,
+INV-10537,Pied Piper Compression,"44,384.83",03/07/2024,03/09/2024,2024-03-07 17:32:00,Purchase order for Pied Piper Compression,Facilities
+INV-10851,Soylent Foods Ltd., 13559.46 ,2023-09-06T00:00:00,09/09/2023,2023-09-06 17:41:00,Purchase order for Soylent Foods Ltd.,Finance
+INV-11259,Bluth Company,35123.59,19-Mar-2023,19-Mar-2023,2023-03-19 17:45:00,NA,Marketing
+INV-11269,Globex Industrial, 22516.30 ,2024-06-25,"June 26, 2024",2024-06-25 18:47:00,  Purchase order for Globex Industrial  ,Marketing
+INV-10727,Stark Materials Co.,"16,289.13",26-Feb-2024,2024-02-27T00:00:00,2024-02-26 16:27:00,Purchase order for Stark Materials Co.,IT
+INV-10376,Wonka Distribution,"$10,335.22","December 20, 2024",2024-12-24,2024-12-20 18:50:00,Purchase order for Wonka Distribution,Operations
+INV-10157,Genco Pura Olive Oil,28304.18,08/24/2024,2024-08-24,2024-08-24 11:00:00,Weekend posting test,Operations
+INV-10358,Los Pollos Hermanos,"$3,241.60",02/10/2024,"October 02, 2024",2024-10-02 17:27:00,N/A,Marketing
+INV-10564,Hooli Cloud Services,"26,751.14",08-Apr-2023,"April 12, 2023",2023-04-08 11:09:00,Purchase order for Hooli Cloud Services,Operations
+INV-10542,Prestige Worldwide,1830.12,06/09/2023,10/09/2023,2023-09-06 13:04:00,  Purchase order for Prestige Worldwide  ,Procurement
+INV-10394,Fabrikam Supplies,"$1,998.54",2023-03-08,10/03/2023,2023-03-08 16:37:00,Purchase order for Fabrikam Supplies,IT
+INV-10510,Weyland-Yutani Corp,"40,782.34","December 20, 2023",22-Dec-2023,2023-12-20 07:59:00,Purchase order for Weyland-Yutani Corp,null
+INV-10884,Bluth Company,20000.00,2024-02-05,2024-02-05,2024-02-05 16:00:00,Split transaction test,Procurement
+INV-11282,Tyrell Corporation,"36,897.64","June 08, 2024",2024-06-13T00:00:00,2024-06-08 11:34:00,Purchase order for Tyrell Corporation,IT
+INV-11106,Genco Pura Olive Oil,"21,635.75",16-Jan-2023,01/21/2023,2023-01-16 17:56:00,Purchase order for Genco Pura Olive Oil,Finance
+INV-10309,Hooli Cloud Services,27140.11,04/12/2023,"December 04, 2023",2023-12-04 11:29:00,Purchase order for Hooli Cloud Services,Finance
+INV-11032,Oscorp Chemical,"$17,593.70",28-Aug-2023,"August 29, 2023",2023-08-28 11:41:00,Purchase order for Oscorp Chemical,IT
+INV-11338,Pied Piper Compression,2614.76,"January 15, 2023",01/15/2023,2023-01-15 13:52:00,Purchase order for Pied Piper Compression,Procurement
+INV-10183,Massive Dynamic, 25722.85 ,18-Nov-2024,"November 20, 2024",2024-11-18 13:03:00,Purchase order for Massive Dynamic,Facilities
+INV-11478,Bluth Company,8713.78,01-Apr-2023,2023-04-04T00:00:00,2023-04-01 10:06:00,Purchase order for Bluth Company,Finance
+INV-11061,Genco Pura Olive Oil,"43,707.84",2023-06-11,"June 11, 2023",2023-06-11 11:00:00,Weekend posting test,Operations
+INV-10232,Ünïcode Vendörs Ltd.,14068.71,2024-12-10T00:00:00,12/13/2024,2024-12-10 09:19:00,Purchase order for Ünïcode Vendörs Ltd.,IT
+INV-10484,Gekko & Co Capital,36093.03,"March 07, 2024",2024-03-09,2024-03-07 08:30:00,Purchase order for Gekko & Co Capital,NA
+INV-10173,Prestige Worldwide,"$32,849.42","May 03, 2024",2024-05-03,2024-05-03 07:04:00,Purchase order for Prestige Worldwide,Finance
+INV-10488,Umbrella Logistics,206557.74,2023-04-27,"April 27, 2023",2023-04-27 15:00:00,Materiality breach test,Finance
+INV-11374,Cyberdyne Systems, 1091.22 ,"March 06, 2024",2024-03-06T00:00:00,2024-03-06 15:14:00,Purchase order for Cyberdyne Systems,Procurement
+INV-10839,Weyland-Yutani Corp,14460.93,22-Sep-2024,09/22/2024,2024-09-22 18:45:00,Purchase order for Weyland-Yutani Corp,Procurement
+INV-11098,Wayne Enterprises,29315.52,"February 19, 2023","February 20, 2023",2023-02-19 08:48:00,Purchase order for Wayne Enterprises,
+INV-10706,Globex Industrial,38752.74,2023-01-29,03/02/2023,2023-01-29 11:13:00,Purchase order for Globex Industrial,Operations
+INV-11075,Stark Materials Co.,18645.00,02/25/2023,01/03/2023,2023-02-25 12:04:00,Purchase order for Stark Materials Co.,--
+INV-11334,Initech Consulting,7052.50,27-Oct-2023,"October 28, 2023",2023-10-27 17:50:00,  Purchase order for Initech Consulting  ,Procurement
+INV-11420,Initech Consulting,"$32,633.41",16-Oct-2023,"October 17, 2023",2023-10-16 09:54:00,Purchase order for Initech Consulting,
+INV-10078,Umbrella Logistics,"$42,431.27",2023-09-11,2023-09-12T00:00:00,2023-09-11 13:16:00,Purchase order for Umbrella Logistics,IT
+INV-10508,Oscorp Chemical,26091.56,2024-03-17T00:00:00,18/03/2024,2024-03-17 14:48:00,Purchase order for Oscorp Chemical,IT
+INV-10529,Prestige Worldwide,18667.57,24/06/2023,06/25/2023,2023-06-24 11:06:00,Purchase order for Prestige Worldwide,
+INV-11174,Globex Industrial,33421.43,"July 28, 2024",2024-07-29T00:00:00,2024-07-28 09:00:00,Duplicate test group 0 copy 0,Procurement
+INV-11360,Northwind Traders,23828.87,04-May-2024,09/05/2024,2024-05-04 07:35:00,Purchase order for Northwind Traders,Marketing
+INV-10860,Fabrikam Supplies,25420.79,2023-02-09T00:00:00,14-Feb-2023,2023-02-09 15:16:00,Purchase order for Fabrikam Supplies,
+INV-10796,Umbrella Logistics,999999.99,15-Nov-2023,"November 15, 2023",2023-11-15 09:00:00,Outlier stress test,Finance
+INV-10754,北京贸易公司,78570.48,23-Aug-2023,"August 23, 2023",2023-08-23 15:00:00,Materiality breach test,Finance
+INV-10748,Genco Pura Olive Oil,6229.34,2024-05-13,27-Jul-2024,2024-07-27 09:00:00,Backdated entry test,Finance
+INV-11361,Oscorp Chemical,"$22,000.00",13/04/2023,04/13/2023,2023-04-13 14:00:00,Round dollar test,Procurement
+INV-10758,Prestige Worldwide,36138.18,16-May-2023,19/05/2023,2023-05-16 16:44:00,Purchase order for Prestige Worldwide,Operations
+INV-11065,Ünïcode Vendörs Ltd.,25516.16,10/15/2023,2023-10-16,2023-10-15 16:32:00,Purchase order for Ünïcode Vendörs Ltd.,Marketing
+INV-11076,Los Pollos Hermanos, 6529.17 ,"September 08, 2024",08-Sep-2024,2024-09-08 08:32:00,Purchase order for Los Pollos Hermanos,IT
+INV-10448,Fabrikam Supplies,11500.00,2023-04-30,2023-04-30T00:00:00,2023-04-30 14:00:00,Round dollar test,Procurement
+INV-10210,Fabrikam Supplies,"21,587.48",11/03/2023,06/11/2023,2023-11-03 11:49:00,Purchase order for Fabrikam Supplies,IT
+INV-10731,Fabrikam Supplies,"$11,349.54",2023-11-18,2023-11-18,2023-11-18 11:00:00,Weekend posting test,Operations
+INV-10126,Dunder Mifflin Paper,"8,006.56",2024-11-06T00:00:00,2024-11-07,2024-11-06 18:24:00,Purchase order for Dunder Mifflin Paper,Facilities
+INV-10388,Gekko & Co Capital,12638.20,2023-06-27T00:00:00,2023-06-30,2023-06-27 16:20:00,Purchase order for Gekko & Co Capital,IT
+INV-10821,Fabrikam Supplies,34042.93,2023-06-21T00:00:00,23/06/2023,2023-06-21 15:24:00,Purchase order for Fabrikam Supplies,NaN
+INV-10831,Fabrikam Supplies, 32127.31 ,"September 22, 2024",2024-09-22T00:00:00,2024-09-22 23:12:00,After-hours entry test,IT
+INV-10878,Northwind Traders,"$35,129.59",04/23/2024,23-Apr-2024,2024-04-23 18:22:00,Purchase order for Northwind Traders,Facilities
+INV-10450,Ünïcode Vendörs Ltd.,"33,178.49",12/10/2023,2023-12-13T00:00:00,2023-12-10 14:37:00,Purchase order for Ünïcode Vendörs Ltd.,Finance
+INV-10805,Oscorp Chemical,41936.72,05/06/2023,2023-05-09T00:00:00,2023-05-06 14:25:00,Purchase order for Oscorp Chemical,IT
+INV-10073,Cyberdyne Systems,"27,352.55","October 20, 2023",01/03/2024,2024-01-03 09:00:00,Backdated entry test,Finance
+INV-11043,Aperture Science,11353.70,06/07/2024,2024-07-10T00:00:00,2024-07-06 07:43:00,Purchase order for Aperture Science,Procurement
+INV-10534,Northwind Traders,"7,368.70",2023-07-22T00:00:00,2023-07-22T00:00:00,2023-07-22 11:00:00,Weekend posting test,--
+INV-11101,Dunder Mifflin Paper,38385.74,2024-08-08,10/08/2024,2024-08-08 07:43:00,Purchase order for Dunder Mifflin Paper,Finance
+INV-10370,Oscorp Chemical,$647.48,"March 14, 2024",15/03/2024,2024-03-14 09:12:00,Purchase order for Oscorp Chemical,Facilities
+INV-10576,Vandelay Industries, 29653.35 ,10-Mar-2023,2023-03-14,2023-03-10 17:58:00,Purchase order for Vandelay Industries,Marketing
+INV-10299,Stark Materials Co.,"$23,759.99",2024-03-28T00:00:00,29/03/2024,2024-03-28 18:39:00,Purchase order for Stark Materials Co.,Finance
+INV-10212,Aperture Science,29369.80,23/03/2023,2023-03-26T00:00:00,2023-03-23 12:45:00,Purchase order for Aperture Science,Facilities
+,Wayne Enterprises,"$37,116.53",27-Oct-2023,"October 27, 2023",2023-10-27 10:05:00,Purchase order for Wayne Enterprises,null
+INV-11284,Contoso Manufacturing,15772.71,03/04/2024,"March 06, 2024",2024-03-04 07:34:00,Purchase order for Contoso Manufacturing,Facilities
+INV-10114,Cyberdyne Systems,25636.19,26-Jul-2023,07/28/2023,2023-07-26 16:16:00,Purchase order for Cyberdyne Systems,Marketing
+INV-10036,Northwind Traders,5708.32,08/01/2024,2024-08-02,2024-08-01 17:49:00,  Purchase order for Northwind Traders  ,IT
+INV-10422,Sterling Cooper Ads,36277.79,27/05/2023,2023-05-31,2023-05-27 14:43:00,Purchase order for Sterling Cooper Ads,Finance
+INV-10044,Fabrikam Supplies,21788.62,"February 07, 2023",07/02/2023,2023-02-07 18:11:00,Purchase order for Fabrikam Supplies,Operations
+INV-11392,Tyrell Corporation,116.88,01/03/2023,"January 07, 2023",2023-01-03 14:04:00,Purchase order for Tyrell Corporation,Operations
+INV-10502,Bluth Company,"44,520.86",2023-10-07,12-Oct-2023,2023-10-07 07:42:00,Purchase order for Bluth Company,Procurement
+INV-11137,Weyland-Yutani Corp,"202,295.53",05-Oct-2024,2024-10-05,2024-10-05 15:00:00,Materiality breach test,Finance
+INV-10770,Los Pollos Hermanos, 6265.90 ,07/06/2024,2024-07-06,2024-07-06 18:29:00,Purchase order for Los Pollos Hermanos,Finance
+INV-10325,Prestige Worldwide,18336.93,28/04/2023,04/29/2023,2023-04-28 17:46:00,Purchase order for Prestige Worldwide,Procurement
+INV-10180,Genco Pura Olive Oil,"39,015.11","October 19, 2024","October 22, 2024",2024-10-19 16:06:00,Purchase order for Genco Pura Olive Oil,Marketing
+INV-11446,🚀 Rocket Supplies Inc.,5702.86,2024-01-27T00:00:00,31-Jan-2024,2024-01-27 07:24:00,Purchase order for 🚀 Rocket Supplies Inc.,Operations
+INV-10278,Cyberdyne Systems,"2,949.88",20-Aug-2024,24-Aug-2024,2024-08-20 10:26:00,Purchase order for Cyberdyne Systems,Procurement
+INV-10041,Weyland-Yutani Corp,"$40,406.44",09/20/2024,"September 22, 2024",2024-09-20 17:04:00,Purchase order for Weyland-Yutani Corp,Facilities
+INV-10107,Umbrella Logistics,39721.25,17-Mar-2024,18/03/2024,2024-03-17 12:39:00,Purchase order for Umbrella Logistics,Procurement
+INV-11440,Los Pollos Hermanos,18010.53,22/03/2023,"March 22, 2023",2023-03-22 22:35:00,After-hours entry test,IT
+INV-10563,Los Pollos Hermanos,null,12/30/2024,02/01/2025,2024-12-30 17:05:00,Purchase order for Los Pollos Hermanos,Facilities
+INV-11401,Tyrell Corporation,34962.75,2024-02-01T00:00:00,2024-02-01,2024-02-01 17:31:00,Purchase order for Tyrell Corporation,Marketing
+INV-11292,Oscorp Chemical, 31880.61 ,"September 24, 2024","September 28, 2024",2024-09-24 18:24:00,Purchase order for Oscorp Chemical,Procurement
+INV-11199,Genco Pura Olive Oil,None,2023-09-22T00:00:00,2023-09-25T00:00:00,2023-09-22 15:39:00,NaN,N/A
+INV-10457,  北京贸易公司  ,8341.77,"November 15, 2023","November 20, 2023",2023-11-15 16:19:00,Purchase order for 北京贸易公司,Finance
+INV-11341,Tyrell Corporation,"1,661.73",2024-03-29T00:00:00,04/03/2024,2024-03-29 18:08:00,Purchase order for Tyrell Corporation,IT
+INV-11417,Cyberdyne Systems,93847.41,2023-11-15,2023-11-15,2023-11-15 15:00:00,Materiality breach test,Finance
+INV-10876,  北京贸易公司  ,"$29,835.66",03/11/2024,08-Nov-2024,2024-11-03 09:00:00,Purchase order for 北京贸易公司,IT
+INV-10583,Contoso Manufacturing,22285.19,14-May-2023,05/14/2023,2023-05-14 12:52:00,Purchase order for Contoso Manufacturing,N/A
+INV-10187,Wayne Enterprises,22000.00,05/05/2024,"May 05, 2024",2024-05-05 14:00:00,Round dollar test,Procurement
+INV-11113,Northwind Traders,39460.42,12/07/2024,08/12/2024,2024-12-07 07:50:00,Purchase order for Northwind Traders,
+INV-11132,北京贸易公司,"$23,531.85",2023-03-18,18-Mar-2023,2023-03-18 14:36:00,Purchase order for 北京贸易公司,Finance
+INV-10328,Bluth Company,"$29,963.22",2023-07-07,2023-07-09T00:00:00,2023-07-07 11:08:00,Purchase order for Bluth Company,Operations
+INV-10433,Sterling Cooper Ads,42522.82,03/12/2023,2023-05-13,2023-05-13 09:00:00,Backdated entry test,Finance
+INV-10297,Wonka Distribution,2879.06,06/02/2024,"June 06, 2024",2024-06-02 12:56:00,Purchase order for Wonka Distribution,Marketing
+INV-10066,Initech Consulting,N/A,08/11/2024,11-Aug-2024,2024-08-11 13:45:00,Purchase order for Initech Consulting,Procurement
+INV-11330,  Aperture Science  ,"34,076.86",2023-12-10,2023-12-14T00:00:00,2023-12-10 07:17:00,Purchase order for Aperture Science,IT
+INV-10430,Stark Materials Co.,13669.77,13/12/2023,2023-12-18,2023-12-13 14:28:00,Purchase order for Stark Materials Co.,IT
+INV-10835,Prestige Worldwide,28500.00,"June 11, 2023",11/06/2023,2023-06-11 14:00:00,Round dollar test,Procurement
+INV-10220,Los Pollos Hermanos,"$21,112.07",2023-12-01T00:00:00,05-Dec-2023,2023-12-01 13:28:00,Purchase order for Los Pollos Hermanos,
+INV-11482,Initech Consulting,26624.88,07/23/2024,2024-07-27,2024-07-23 16:25:00,Purchase order for Initech Consulting,Operations
+INV-11069,Contoso Manufacturing, 2992.61 ,30-Mar-2023,01-Apr-2023,2023-03-30 11:55:00,Purchase order for Contoso Manufacturing,Marketing
+INV-10772,Sterling Cooper Ads,35751.93,2023-10-26,26/10/2023,2023-10-26 17:31:00,Purchase order for Sterling Cooper Ads,
+INV-10408,Sterling Cooper Ads,"18,999.54",2023-09-12T00:00:00,09/15/2023,2023-09-12 15:27:00,  Purchase order for Sterling Cooper Ads  ,Facilities
+INV-10545,Contoso Manufacturing,19293.84,22/04/2024,"April 22, 2024",2024-04-22 02:45:00,After-hours entry test,IT
+INV-11271,Umbrella Logistics,35436.30,15-Oct-2023,16/10/2023,2023-10-15 07:42:00,Purchase order for Umbrella Logistics,Facilities
+INV-10312,  Los Pollos Hermanos  ,422.03,03/12/2023,03/12/2023,2023-12-03 09:27:00,Purchase order for Los Pollos Hermanos,Finance
+INV-10311,Ünïcode Vendörs Ltd.,38180.55,12/16/2023,"December 17, 2023",2023-12-16 09:28:00,Purchase order for Ünïcode Vendörs Ltd.,Facilities
+INV-10166,Genco Pura Olive Oil,"$29,776.18",2024-08-24,"August 27, 2024",2024-08-24 15:00:00,Purchase order for Genco Pura Olive Oil,
+INV-10339,  Stark Materials Co.  ,"42,736.73",2023-11-06T00:00:00,2023-11-11T00:00:00,2023-11-06 09:07:00,Purchase order for Stark Materials Co.,NaN
+INV-10923,Pied Piper Compression, 27724.51 ,"September 26, 2023",10/01/2023,2023-09-26 16:08:00,Purchase order for Pied Piper Compression,Facilities
+INV-10307,Wayne Enterprises,"$42,195.57",04-Sep-2024,09/09/2024,2024-09-04 12:45:00,NA,
+INV-11456,北京贸易公司,20276.35,2023-01-03,2023-01-03,2023-01-03 06:07:00,After-hours entry test,IT
+INV-11495,Sterling Cooper Ads,12063.31,2023-01-28,31/01/2023,2023-01-28 08:47:00,Purchase order for Sterling Cooper Ads,N/A
+INV-11095,北京贸易公司,25467.45,2023-10-30T00:00:00,31/10/2023,2023-10-30 07:12:00,Purchase order for 北京贸易公司,Marketing
+INV-10543,Sterling Cooper Ads,32222.42,12-Jan-2023,01/15/2023,2023-01-12 12:34:00,Purchase order for Sterling Cooper Ads,--
+INV-11367,Los Pollos Hermanos,"$8,780.07",20/12/2024,24-Dec-2024,2024-12-20 10:21:00,Purchase order for Los Pollos Hermanos,Procurement
+INV-10140,  Genco Pura Olive Oil  ,"1,224.02","June 03, 2024","June 06, 2024",2024-06-03 09:23:00,Purchase order for Genco Pura Olive Oil,NaN
+INV-10827,Wayne Enterprises,15622.38,"June 19, 2024",19/06/2024,2024-06-19 13:00:00,Holiday posting test,Operations
+INV-10355,Pied Piper Compression, 14684.07 ,2024-03-15,19/03/2024,2024-03-15 08:50:00,Purchase order for Pied Piper Compression,Facilities
+INV-10834,Vandelay Industries,"$42,693.09",2024-07-27T00:00:00,07/28/2024,2024-07-27 11:15:00,Purchase order for Vandelay Industries,
+INV-10879,Stark Materials Co.,28193.87,2023-02-19T00:00:00,"February 20, 2023",2023-02-19 15:17:00,Purchase order for Stark Materials Co.,Operations
+INV-11243,  Northwind Traders  ,"$33,942.34",2023-07-21,23/07/2023,2023-07-21 11:57:00,Purchase order for Northwind Traders,NA
+INV-10185,Umbrella Logistics,44826.80,11/01/2023,"January 13, 2023",2023-01-11 15:00:00,Purchase order for Umbrella Logistics,
+INV-11294,Weyland-Yutani Corp,37797.09,23/02/2024,2024-02-23,2024-02-23 12:46:00,Purchase order for Weyland-Yutani Corp,Operations
+INV-10937,Oscorp Chemical,"$31,418.91",2024-09-25T00:00:00,2024-09-25T00:00:00,2024-09-25 13:38:00,None,Operations
+INV-11328,Aperture Science,22469.52,"January 31, 2023",02/04/2023,2023-01-31 11:58:00,Purchase order for Aperture Science,
+INV-10708,Pied Piper Compression,42860.95,2023-11-11T00:00:00,11/11/2023,2023-11-11 13:00:00,Holiday posting test,Operations
+INV-10321,Gekko & Co Capital,21942.79,2023-02-13,15/02/2023,2023-02-13 07:36:00,Purchase order for Gekko & Co Capital,
+INV-10262,北京贸易公司,21000.00,2024-05-03,2024-05-03T00:00:00,2024-05-03 14:00:00,Round dollar test,Procurement
+INV-11445,Acme Global Holdings,2420.24,2024-10-10T00:00:00,2024-10-14,2024-10-10 14:00:00,  Purchase order for Acme Global Holdings  ,--
+INV-10734,Fabrikam Supplies,"$26,371.43",2024-05-22,23-May-2024,2024-05-22 17:23:00,Purchase order for Fabrikam Supplies,IT
+INV-11255,Los Pollos Hermanos,23080.87,2024-09-16T00:00:00,17/09/2024,2024-09-16 17:53:00,Purchase order for Los Pollos Hermanos,Finance
+INV-10051,Wayne Enterprises,39331.37,27/09/2023,2023-09-28,2023-09-27 13:29:00,Purchase order for Wayne Enterprises,Operations
+INV-10387,Dunder Mifflin Paper,17187.25,13-Jul-2023,07/17/2023,2023-07-13 13:56:00,Purchase order for Dunder Mifflin Paper,
+INV-10893,Prestige Worldwide,21063.37,"November 16, 2024",11/16/2024,2024-11-16 11:00:00,Weekend posting test,Operations
+INV-11264,Tyrell Corporation,13793.24,12/04/2024,04/17/2024,2024-04-12 08:24:00,Purchase order for Tyrell Corporation,IT
+INV-11290,Wayne Enterprises,16171.01,2024-03-25,2024-03-27T00:00:00,2024-03-25 16:14:00,Purchase order for Wayne Enterprises,Marketing
+INV-11160,Northwind Traders,"22,000.00",06/02/2024,"February 06, 2024",2024-02-06 14:00:00,Round dollar test,Procurement
+INV-10823,Gekko & Co Capital,"$39,658.44",10/24/2024,27/10/2024,2024-10-24 10:58:00,Purchase order for Gekko & Co Capital,Facilities
+INV-10536,Genco Pura Olive Oil,16684.85,2024-03-22T00:00:00,27/03/2024,2024-03-22 08:59:00,Purchase order for Genco Pura Olive Oil,Operations
+INV-10436,Cyberdyne Systems,1003.77,"January 23, 2023",24-Jan-2023,2023-01-23 08:48:00,Purchase order for Cyberdyne Systems,-
+INV-10156,Stark Materials Co.,24580.12,14/09/2023,17-Sep-2023,2023-09-14 10:18:00,Purchase order for Stark Materials Co.,NA
+INV-10989,Tyrell Corporation,30609.38,08/29/2023,29/08/2023,2023-08-29 10:00:00,Dormant vendor test,Procurement
+INV-10088,Ünïcode Vendörs Ltd.,28429.92,14/05/2024,05/15/2024,2024-05-14 12:01:00,Purchase order for Ünïcode Vendörs Ltd.,Procurement
+INV-11303,Ünïcode Vendörs Ltd.,37660.45,2023-11-25,2023-11-25,2023-11-25 06:25:00,After-hours entry test,IT
+INV-10833,Wonka Distribution,17367.50,2023-04-29T00:00:00,2023-05-01T00:00:00,2023-04-29 08:18:00,NaN,Operations
+INV-11001,Wayne Enterprises,18056.62,2024-08-02T00:00:00,03-Aug-2024,2024-08-02 09:12:00,Purchase order for Wayne Enterprises,NA
+INV-10703,Stark Materials Co.,24757.83,2023-10-27,27-Oct-2023,2023-10-27 09:08:00,Purchase order for Stark Materials Co.,Operations
+INV-11352,Ünïcode Vendörs Ltd.,5079.76,05-Aug-2024,2024-08-05,2024-08-05 07:10:00,Purchase order for Ünïcode Vendörs Ltd.,Marketing
+INV-10715,Los Pollos Hermanos, 30631.65 ,09/30/2023,2023-10-02T00:00:00,2023-09-30 18:03:00,Purchase order for Los Pollos Hermanos,Finance
+INV-10021,  Soylent Foods Ltd.  ,"$24,285.25",2024-03-04,2024-03-05T00:00:00,2024-03-04 15:07:00,Purchase order for Soylent Foods Ltd.,Marketing
+INV-10460,Weyland-Yutani Corp,22657.33,2023-06-10T00:00:00,11-Jun-2023,2023-06-10 18:28:00,Purchase order for Weyland-Yutani Corp,Procurement
+INV-11064,Tyrell Corporation,38380.97,"July 01, 2023",2023-07-01,2023-07-01 11:00:00,Weekend posting test,Operations
+INV-10901,Los Pollos Hermanos,11200.60,11/23/2024,"November 28, 2024",2024-11-23 15:51:00,Purchase order for Los Pollos Hermanos,Operations
+INV-11015,Umbrella Logistics,25281.68,31-May-2024,2024-05-31T00:00:00,2024-05-31 10:00:00,Possible duplicate payment,Finance
+INV-11304,Northwind Traders,"$40,821.65",2024-10-09,2024-10-14T00:00:00,2024-10-09 07:29:00,Purchase order for Northwind Traders,Operations
+INV-10331,  Aperture Science  ,33752.06,"May 28, 2024",2024-05-31T00:00:00,2024-05-28 17:55:00,Purchase order for Aperture Science,Marketing
+INV-11104,Gekko & Co Capital, 30590.54 ,"December 13, 2023",2023-12-18,2023-12-13 15:45:00,Purchase order for Gekko & Co Capital,
+INV-11208,Acme Global Holdings,38325.59,01-Apr-2023,2023-05-05T00:00:00,2023-05-05 09:00:00,Backdated entry test,Finance
+INV-11421,Fabrikam Supplies,"42,812.29",2023-10-17T00:00:00,2023-10-20,2023-10-17 16:14:00,,N/A
+INV-10955,  Massive Dynamic  ,5224.19,06/06/2024,2024-06-06T00:00:00,2024-06-06 14:30:00,Purchase order for Massive Dynamic,-
+INV-11437,Los Pollos Hermanos, 21843.06 ,07/24/2024,2024-07-24T00:00:00,2024-07-24 07:18:00,Purchase order for Los Pollos Hermanos,
+INV-10843,Aperture Science,42394.79,2024-09-05T00:00:00,09/06/2024,2024-09-05 12:08:00,Purchase order for Aperture Science,Marketing
+INV-11209,🚀 Rocket Supplies Inc.,"$16,642.08","June 25, 2024",03-Sep-2024,2024-09-03 09:00:00,Backdated entry test,-
+INV-10417,Wayne Enterprises,15545.98,"May 16, 2024",05/17/2024,2024-05-16 17:14:00,Purchase order for Wayne Enterprises,Procurement
+INV-10239,Vandelay Industries,"$7,962.08",25-Jul-2023,20/10/2023,2023-10-20 09:00:00,Backdated entry test,Finance
+INV-10256,Weyland-Yutani Corp,"30,953.49",2024-04-23T00:00:00,28-Apr-2024,2024-04-23 13:25:00,Purchase order for Weyland-Yutani Corp,Finance
+INV-10586,北京贸易公司,43942.20,2023-11-11,2023-11-11T00:00:00,2023-11-11 11:00:00,Weekend posting test,Operations
+INV-11415,Cyberdyne Systems,32758.11,14-Apr-2023,"April 18, 2023",2023-04-14 11:00:00,Purchase order for Cyberdyne Systems,
+INV-11457,Cyberdyne Systems,"$21,040.64","October 14, 2024",2024-10-14,2024-10-14 09:17:00,  Purchase order for Cyberdyne Systems  ,Finance
+INV-10168,Cyberdyne Systems,"24,390.77",16-Feb-2024,"February 16, 2024",2024-02-16 10:58:00,Purchase order for Cyberdyne Systems,Operations
+INV-11067,Ünïcode Vendörs Ltd., 44875.32 ,05/18/2024,"May 21, 2024",2024-05-18 14:22:00,Purchase order for Ünïcode Vendörs Ltd.,Finance
+INV-10079,Pied Piper Compression,4927.52,"June 21, 2023",2023-06-21,2023-06-21 17:13:00,Purchase order for Pied Piper Compression,Marketing
+INV-11060,Cyberdyne Systems,35365.23,10/12/2023,"October 13, 2023",2023-10-12 18:03:00,Purchase order for Cyberdyne Systems,IT
+INV-11498,北京贸易公司,16144.56,"February 16, 2024",02/21/2024,2024-02-16 09:37:00,Purchase order for 北京贸易公司,Marketing
+INV-11184,Northwind Traders,7104.80,21/07/2024,2024-07-23T00:00:00,2024-07-21 08:14:00,Purchase order for Northwind Traders,NaN
+INV-10035,  Tyrell Corporation  ,30482.05,2024-03-04T00:00:00,"March 05, 2024",2024-03-04 08:52:00,Purchase order for Tyrell Corporation,N/A
+INV-10966,Soylent Foods Ltd.,28500.00,2023-11-27,2023-11-27T00:00:00,2023-11-27 14:00:00,Round dollar test,NA
+INV-10437,Aperture Science,"13,474.23",11-Jun-2024,2024-06-13,2024-06-11 18:31:00,Purchase order for Aperture Science,Operations
+INV-10102,Umbrella Logistics,32690.26,2024-12-23T00:00:00,2024-12-28T00:00:00,2024-12-23 17:04:00,Purchase order for Umbrella Logistics,Finance
+INV-11202,Umbrella Logistics,12497.98,"October 24, 2024",2024-10-24T00:00:00,2024-10-24 03:26:00,After-hours entry test,IT
+INV-11251,Oscorp Chemical,"38,344.32","January 07, 2023",07/01/2023,2023-01-07 11:00:00,Weekend posting test,Operations
+INV-10587,Los Pollos Hermanos,39821.03,17-Nov-2024,2024-11-18T00:00:00,2024-11-17 18:10:00,Purchase order for Los Pollos Hermanos,Marketing
+INV-10121,北京贸易公司, 9404.63 ,2024-02-22,24/02/2024,2024-02-22 13:41:00,Purchase order for 北京贸易公司,NA
+INV-11191,🚀 Rocket Supplies Inc.,"$38,896.68",2024-12-21,2024-12-24T00:00:00,2024-12-21 16:00:00,  Purchase order for 🚀 Rocket Supplies Inc.  ,Facilities
+INV-10001,Los Pollos Hermanos,4000.00,17/12/2024,17/12/2024,2024-12-17 14:00:00,Round dollar test,Procurement
+INV-11385,  Umbrella Logistics  ,34711.54,"February 06, 2023",2023-02-07T00:00:00,2023-02-06 10:52:00,Purchase order for Umbrella Logistics,Procurement
+INV-10828,Umbrella Logistics, 18284.42 ,"July 08, 2024",11/07/2024,2024-07-08 17:17:00,Purchase order for Umbrella Logistics,None
+INV-10525,Northwind Traders,14385.94,2024-11-22,25/11/2024,2024-11-22 11:58:00,Purchase order for Northwind Traders,Finance
+INV-10896,Gekko & Co Capital,37511.80,07/06/2023,2023-06-11T00:00:00,2023-06-07 14:46:00,Purchase order for Gekko & Co Capital,Procurement
+INV-10334,🚀 Rocket Supplies Inc.,16289.94,"August 15, 2023",08/15/2023,2023-08-15 08:29:00,Purchase order for 🚀 Rocket Supplies Inc.,Finance
+INV-10028,Los Pollos Hermanos,189346.15,06/08/2023,08/06/2023,2023-06-08 15:00:00,Materiality breach test,Finance
+INV-11492,Vandelay Industries,397.96,09/05/2023,10-May-2023,2023-05-09 09:00:00,Duplicate test group 2 copy 0,Procurement
+INV-11193,Oscorp Chemical,42505.57,2023-07-24,07/25/2023,2023-07-24 07:38:00,Purchase order for Oscorp Chemical,Operations
+INV-10985,Northwind Traders,"$21,958.10",23-Mar-2024,28/03/2024,2024-03-23 17:06:00,Purchase order for Northwind Traders,Marketing
+INV-10404,Los Pollos Hermanos,"$24,860.18",2024-05-11,11-May-2024,2024-05-11 23:56:00,After-hours entry test,IT
+INV-10971,Ünïcode Vendörs Ltd.,43201.25,10/13/2023,15-Oct-2023,2023-10-13 12:00:00,Purchase order for Ünïcode Vendörs Ltd.,null
+INV-10885,Pied Piper Compression,1855.13,18-Jan-2023,2023-01-20T00:00:00,2023-01-18 11:22:00,Purchase order for Pied Piper Compression,Marketing
+INV-10267,Northwind Traders, 40003.26 ,26-Aug-2024,28-Aug-2024,2024-08-26 18:48:00,Purchase order for Northwind Traders,Marketing
+INV-10849,Weyland-Yutani Corp,"$33,579.12",2024-05-08,"May 11, 2024",2024-05-08 17:19:00,Purchase order for Weyland-Yutani Corp,None
+INV-10324,Gekko & Co Capital,"$39,790.53","September 08, 2024","September 13, 2024",2024-09-08 10:14:00,Purchase order for Gekko & Co Capital,Operations
+INV-11432,Genco Pura Olive Oil,8334.38,"January 06, 2023",07-Jan-2023,2023-01-06 09:00:00,Duplicate test group 1 copy 0,None
+INV-11159,Dunder Mifflin Paper,"43,438.31",27/11/2023,"November 29, 2023",2023-11-27 10:25:00,Purchase order for Dunder Mifflin Paper,
+INV-10393,Cyberdyne Systems,"37,369.89",09/02/2024,2024-02-09T00:00:00,2024-02-09 10:42:00,NaN,Procurement
+,  Soylent Foods Ltd.  ,"$24,285.25",2024-03-04,2024-03-05T00:00:00,2024-03-04 15:07:00,Purchase order for Soylent Foods Ltd.,Marketing
+INV-10271,Weyland-Yutani Corp,2323576.19,29/06/2024,06/29/2024,2024-06-29 09:00:00,Vendor concentration test,
+INV-10963,Acme Global Holdings,36441.22,01/01/2023,05/01/2023,2023-01-01 09:55:00,Purchase order for Acme Global Holdings,
+INV-10463,北京贸易公司,21418.49,"September 13, 2023",17-Sep-2023,2023-09-13 15:09:00,Purchase order for 北京贸易公司,Facilities
+INV-10004,Umbrella Logistics,16334.75,2024-12-28T00:00:00,28/12/2024,2024-12-28 12:38:00,Purchase order for Umbrella Logistics,
+INV-10777,Stark Materials Co.,26616.52,15-Aug-2023,18/08/2023,2023-08-15 14:22:00,  Purchase order for Stark Materials Co.  ,
+INV-11035,Massive Dynamic,"$27,620.56",27/04/2023,2023-04-28,2023-04-27 17:45:00,Purchase order for Massive Dynamic,IT
+INV-10275,Acme Global Holdings,10038.33,2024-01-25T00:00:00,"January 25, 2024",2024-01-25 12:13:00,Purchase order for Acme Global Holdings,Procurement
+INV-10182,Ünïcode Vendörs Ltd., 43625.02 ,2024-04-22T00:00:00,2024-04-23T00:00:00,2024-04-22 09:05:00,Purchase order for Ünïcode Vendörs Ltd.,None
+INV-11182,Northwind Traders,21215.95,2023-12-16T00:00:00,"December 20, 2023",2023-12-16 08:51:00,Purchase order for Northwind Traders,IT
+INV-11489,Wonka Distribution,41433.75,11/11/2023,11-Nov-2023,2023-11-11 11:00:00,Weekend posting test,Operations
+INV-10260,Aperture Science,34747.52,"January 14, 2023","January 17, 2023",2023-01-14 16:43:00,Purchase order for Aperture Science,null
+INV-10743,Vandelay Industries,8365.05,04/23/2024,04/28/2024,2024-04-23 15:14:00,Purchase order for Vandelay Industries,-
+INV-10781,Gekko & Co Capital, 38663.68 ,17-Apr-2024,17-Apr-2024,2024-04-17 18:15:00,Purchase order for Gekko & Co Capital,Procurement
+INV-11453,Fabrikam Supplies,44848.70,2024-02-26,2024-02-28,2024-02-26 11:47:00,Purchase order for Fabrikam Supplies,Facilities
+INV-10462,Ünïcode Vendörs Ltd.,17000.00,03/30/2023,2023-03-30T00:00:00,2023-03-30 14:00:00,Round dollar test,Procurement
+INV-10327,Ünïcode Vendörs Ltd.,"$6,084.74",04-Jun-2024,"June 09, 2024",2024-06-04 13:06:00,Purchase order for Ünïcode Vendörs Ltd.,
+INV-10861,Initech Consulting,24806.29,2024-04-08,10-Apr-2024,2024-04-08 14:28:00,Purchase order for Initech Consulting,Procurement
+INV-10829,  Dunder Mifflin Paper  ,25018.20,06-Apr-2023,2023-04-06T00:00:00,2023-04-06 08:24:00,Purchase order for Dunder Mifflin Paper,
+INV-10128,Massive Dynamic,18134.20,2024-09-25T00:00:00,2024-09-26T00:00:00,2024-09-25 13:12:00,Purchase order for Massive Dynamic,Finance
+INV-10384,Pied Piper Compression,16509.81,"May 16, 2023",2023-05-17T00:00:00,2023-05-16 14:13:00,Purchase order for Pied Piper Compression,Operations
+INV-10977,Massive Dynamic,-5000.00,25/07/2024,25/07/2024,2024-07-25 09:00:00,Outlier stress test,Finance
+INV-11229,Genco Pura Olive Oil,42913.27,09/23/2024,2024-09-23,2024-09-23 10:58:00,Purchase order for Genco Pura Olive Oil,
+INV-10069,Northwind Traders,35389.52,02/04/2024,2024-04-02,2024-04-02 10:00:00,Possible duplicate payment,Finance
+INV-10916,Massive Dynamic,"$32,074.56",02-Apr-2023,04/07/2023,2023-04-02 13:17:00,Purchase order for Massive Dynamic,Marketing
+INV-10712,  Cyberdyne Systems  ,"22,067.75","January 16, 2024",16-Jan-2024,2024-01-16 10:11:00,Purchase order for Cyberdyne Systems,IT
+INV-10332,Weyland-Yutani Corp,"15,666.73",25-Feb-2023,02-Mar-2023,2023-02-25 10:06:00,Purchase order for Weyland-Yutani Corp,Facilities
+INV-11216,  Massive Dynamic  ,"25,471.98","May 07, 2024",2024-05-07,2024-05-07 08:11:00,Purchase order for Massive Dynamic,IT
+INV-10063,Umbrella Logistics,42846.82,09-Aug-2023,"August 09, 2023",2023-08-09 10:00:00,Possible duplicate payment,N/A
+INV-10026,Soylent Foods Ltd.,"$7,537.77",2024-05-06T00:00:00,11/05/2024,2024-05-06 11:51:00,Purchase order for Soylent Foods Ltd.,Procurement
+INV-10095,Pied Piper Compression,25099.99,"January 19, 2023",21/01/2023,2023-01-19 11:05:00,Purchase order for Pied Piper Compression,None
+INV-11214,Sterling Cooper Ads,12766.13,2023-12-26T00:00:00,2023-12-29T00:00:00,2023-12-26 10:31:00,Purchase order for Sterling Cooper Ads,Marketing
+INV-11044,  Initech Consulting  ,"6,301.48",07-Feb-2024,2024-02-12,2024-02-07 13:49:00,Purchase order for Initech Consulting,Marketing
+INV-10412,Genco Pura Olive Oil, 25201.93 ,2024-09-25T00:00:00,09/27/2024,2024-09-25 16:49:00,Purchase order for Genco Pura Olive Oil,Operations
+INV-10066,Initech Consulting,20804.58,08/11/2024,11-Aug-2024,2024-08-11 13:45:00,Purchase order for Initech Consulting,Procurement
+INV-11297,Fabrikam Supplies,847.57,01/01/2024,01/02/2024,2024-01-01 13:30:00,Purchase order for Fabrikam Supplies,Facilities
+INV-11073,Gekko & Co Capital,817.29,"January 01, 2023",01-Jan-2023,2023-01-01 13:00:00,Holiday posting test,Operations
+INV-11206,Cyberdyne Systems,"$3,945.71","February 04, 2024",2024-02-06T00:00:00,2024-02-04 17:45:00,Purchase order for Cyberdyne Systems,Marketing
+INV-11031,Acme Global Holdings,37736.98,19/12/2024,2024-12-22T00:00:00,2024-12-19 10:55:00,Purchase order for Acme Global Holdings,Marketing
+INV-11454,Bluth Company,16000.00,2023-08-14,14/08/2023,2023-08-14 14:00:00,Round dollar test,Procurement
+INV-11486,Vandelay Industries,39612.13,2023-02-18T00:00:00,22/02/2023,2023-02-18 18:25:00,Purchase order for Vandelay Industries,Facilities
+INV-11200,Cyberdyne Systems, 39485.13 ,2024-06-26T00:00:00,01/07/2024,2024-06-26 12:01:00,Purchase order for Cyberdyne Systems,IT
+INV-10138,Massive Dynamic,"$4,192.04",2023-08-25T00:00:00,2023-08-26,2023-08-25 12:52:00,Purchase order for Massive Dynamic,
+INV-11169,Gekko & Co Capital,"$32,078.97",2023-10-30T00:00:00,31-Oct-2023,2023-10-30 16:29:00,Purchase order for Gekko & Co Capital,Procurement
+INV-11194,Bluth Company,20000.00,"February 05, 2024",05/02/2024,2024-02-05 16:00:00,Split transaction test,Procurement
+INV-10181,Genco Pura Olive Oil,"19,500.00",2024-03-13,13/03/2024,2024-03-13 14:00:00,Round dollar test,Procurement
+INV-11326,Wayne Enterprises,5458.12,2023-05-26,28/05/2023,2023-05-26 13:29:00,Purchase order for Wayne Enterprises,Finance
+INV-10822,Contoso Manufacturing,19914.07,17/09/2024,09/22/2024,2024-09-17 10:50:00,Purchase order for Contoso Manufacturing,Procurement
+INV-10405,Sterling Cooper Ads,25558.82,2024-04-19T00:00:00,2024-04-19,2024-04-19 03:30:00,After-hours entry test,-
+INV-10725,  Wonka Distribution  , 6790.13 ,21-Sep-2024,21-Sep-2024,2024-09-21 15:30:00,Purchase order for Wonka Distribution,IT
+INV-10548,Umbrella Logistics, 30871.46 ,2023-01-07T00:00:00,10/01/2023,2023-01-07 11:14:00,Purchase order for Umbrella Logistics,Procurement
+INV-10566,Sterling Cooper Ads,"$13,961.05",05/09/2023,14-May-2023,2023-05-09 12:27:00,Purchase order for Sterling Cooper Ads,NaN
+INV-10952,  北京贸易公司  ,1817.05,06-Dec-2023,11-Dec-2023,2023-12-06 09:04:00,null,IT
+INV-10580,Stark Materials Co., 24835.66 ,07/26/2023,07/29/2023,2023-07-26 10:26:00,Purchase order for Stark Materials Co.,N/A
+INV-11203,Tyrell Corporation,31022.20,05-Feb-2024,06/02/2024,2024-02-05 15:18:00,Purchase order for Tyrell Corporation,Finance
+INV-10086,Wonka Distribution,4604.68,"December 04, 2024",08/12/2024,2024-12-04 11:12:00,Purchase order for Wonka Distribution,-
+INV-10346,Pied Piper Compression, 5049.25 ,30/07/2024,30/07/2024,2024-07-30 00:42:00,After-hours entry test,IT
+INV-10894,Soylent Foods Ltd.,27476.43,2024-02-26,2024-03-02,2024-02-26 12:01:00,Purchase order for Soylent Foods Ltd.,IT
+INV-10913,Gekko & Co Capital,13351.40,2023-03-07,2023-03-07,2023-03-07 13:55:00,Purchase order for Gekko & Co Capital,NA
+INV-11225,Weyland-Yutani Corp,"$40,666.19",19-Sep-2023,2023-09-19,2023-09-19 10:36:00,NaN,--
+INV-11099,Bluth Company,28000.00,"March 15, 2024",2024-03-15T00:00:00,2024-03-15 14:00:00,Round dollar test,Procurement
+INV-10466,Weyland-Yutani Corp,2057610.23,21-May-2023,2023-05-21T00:00:00,2023-05-21 09:00:00,Vendor concentration test,Procurement
+INV-10793,+CMD|'/c calc'!A1,2900.60,27-Nov-2024,2024-12-01T00:00:00,2024-11-27 13:47:00,  Purchase order for Pied Piper Compression  ,Marketing
+INV-11174,Globex Industrial,33421.43,"July 28, 2024",2024-07-29,2024-07-28 09:00:00,Duplicate test group 0 copy 1,Procurement
+INV-10056,Gekko & Co Capital,"38,507.38",07/08/2023,08/07/2023,2023-07-08 09:54:00,Purchase order for Gekko & Co Capital,--
+INV-10013,Bluth Company,"20,000.00",02/05/2024,2024-02-05T00:00:00,2024-02-05 16:00:00,Split transaction test,Procurement
+INV-10350,Wonka Distribution,203.25,10-Apr-2023,2023-04-10T00:00:00,2023-04-10 07:28:00,Purchase order for Wonka Distribution,IT
+INV-11002,Dunder Mifflin Paper,23024.95,"March 15, 2024",2024-03-18,2024-03-15 17:59:00,Purchase order for Dunder Mifflin Paper,Finance
+INV-11362,Stark Materials Co.,8603.32,03/04/2023,2023-03-04T00:00:00,2023-03-04 11:00:00,Weekend posting test,Operations
+INV-11171,Fabrikam Supplies,"40,873.87",NA,07/12/2023,2023-07-11 12:59:00,--,Operations
+INV-11275,Globex Industrial,10000.00,23/07/2023,23-Jul-2023,2023-07-23 14:00:00,Round dollar test,Procurement
+INV-11117,  Northwind Traders  , 39026.34 ,2024-02-26T00:00:00,02/29/2024,2024-02-26 18:23:00,Purchase order for Northwind Traders,Facilities
+INV-11313,Genco Pura Olive Oil,21696.97,03/16/2023,2023-03-16,2023-03-16 10:50:00,Purchase order for Genco Pura Olive Oil,Procurement
+INV-11276,Wayne Enterprises,11177.86,22/10/2023,2023-10-22,2023-10-22 08:25:00,Purchase order for Wayne Enterprises,Facilities
+INV-10150,Aperture Science,24849.57,"September 03, 2024",06-Sep-2024,2024-09-03 16:23:00,None,Finance
+INV-11405,Hooli Cloud Services,"2,322.95",2023-05-03T00:00:00,06/05/2023,2023-05-03 14:30:00,Purchase order for Hooli Cloud Services,null
+INV-10000,Pied Piper Compression,"$23,394.69",21/02/2024,02/25/2024,2024-02-21 13:00:00,Purchase order for Pied Piper Compression,Marketing
+INV-10304,+CMD|'/c calc'!A1,26196.74,12/22/2024,24/12/2024,2024-12-22 14:27:00,None,
+INV-10995,Northwind Traders, 15310.87 ,2023-07-08,2023-07-13T00:00:00,2023-07-08 09:50:00,Purchase order for Northwind Traders,Operations
+INV-10500,Umbrella Logistics,8448.78,2024-05-25,2024-05-29,2024-05-25 18:15:00,Purchase order for Umbrella Logistics,Operations
+INV-11431,Ünïcode Vendörs Ltd.,22441.58,24/07/2024,2024-07-29,2024-07-24 17:05:00,Purchase order for Ünïcode Vendörs Ltd.,Operations
+INV-11116,+CMD|'/c calc'!A1, 36770.42 ,23/08/2024,"August 24, 2024",2024-08-23 12:22:00,Purchase order for Umbrella Logistics,Operations
+INV-10774,Hooli Cloud Services,4582.50,13-Sep-2024,13-Sep-2024,2024-09-13 17:43:00,Purchase order for Hooli Cloud Services,N/A
+INV-10296,Contoso Manufacturing,24740.36,24/12/2024,24-Dec-2024,2024-12-24 10:21:00,Purchase order for Contoso Manufacturing,Operations
+INV-10268,Contoso Manufacturing,"$24,500.00",11-Apr-2023,04/11/2023,2023-04-11 14:00:00,Round dollar test,Procurement
+INV-11355,Aperture Science,43217.36,04/12/2023,2023-12-09T00:00:00,2023-12-04 11:21:00,Purchase order for Aperture Science,Marketing
+INV-11480,Acme Global Holdings,"$25,287.39",2024-05-31,04/06/2024,2024-05-31 18:44:00,Purchase order for Acme Global Holdings,null
+INV-11041,Soylent Foods Ltd.,6980.01,26/01/2023,2023-01-29,2023-01-26 09:40:00,Purchase order for Soylent Foods Ltd.,Procurement
+INV-10981,Dunder Mifflin Paper,17406.75,"November 30, 2023",2023-11-30T00:00:00,2023-11-30 15:08:00,Purchase order for Dunder Mifflin Paper,
+INV-10443,Wonka Distribution,"$22,452.22",2024-11-18,19/11/2024,2024-11-18 07:26:00,Purchase order for Wonka Distribution,Marketing
+INV-11235,Weyland-Yutani Corp,"$12,021.54",2024-03-11T00:00:00,2024-03-12,2024-03-11 13:31:00,  Purchase order for Weyland-Yutani Corp  ,Finance
+INV-11426,Hooli Cloud Services,12695.94,2023-09-20T00:00:00,21-Sep-2023,2023-09-20 09:53:00,Purchase order for Hooli Cloud Services,Operations
+INV-11323,  Stark Materials Co.  ,22511.18,"March 22, 2023",03/26/2023,2023-03-22 15:12:00,Purchase order for Stark Materials Co.,Operations
+,,,,,,Row with all canonical fields blank,Operations
+INV-10050,北京贸易公司,"4,117.05",01-Dec-2023,06/12/2023,2023-12-01 12:23:00,Purchase order for 北京贸易公司,null
+INV-11195,Pied Piper Compression,37585.22,"September 09, 2024",14/09/2024,2024-09-09 15:55:00,null,IT
+INV-11155,=SUM(A1:A10), 43371.99 ,03/09/2023,06-Sep-2023,2023-09-03 09:55:00,  Purchase order for Contoso Manufacturing  ,--
+INV-11400,  Wonka Distribution  ,"$26,751.65",05-Jun-2023,10/06/2023,2023-06-05 10:46:00,Purchase order for Wonka Distribution,Marketing
+INV-10928,Tyrell Corporation, 16049.19 ,16-Sep-2024,16-Sep-2024,2024-09-16 11:12:00,  Purchase order for Tyrell Corporation  ,Facilities
+INV-10227,Wonka Distribution,60304.35,2023-04-17,2023-04-17T00:00:00,2023-04-17 15:00:00,Materiality breach test,Finance
+INV-10076,Globex Industrial,944.91,2024-11-15T00:00:00,2024-11-15T00:00:00,2024-11-15 07:33:00,Purchase order for Globex Industrial,Finance
+INV-11112,Vandelay Industries,"10,315.87",2024-02-21T00:00:00,"February 25, 2024",2024-02-21 07:37:00,Purchase order for Vandelay Industries,N/A
+INV-11300,Contoso Manufacturing,"57,801.47",06-Dec-2023,06/12/2023,2023-12-06 15:00:00,Materiality breach test,null
+INV-10742,Contoso Manufacturing,18962.19,01/10/2024,15-Jan-2024,2024-01-10 14:54:00,Purchase order for Contoso Manufacturing,Operations
+INV-10467,Stark Materials Co.,3918.48,07/09/2024,2024-07-13,2024-07-09 11:57:00,Purchase order for Stark Materials Co.,Operations
+INV-10783,Pied Piper Compression,1254.38,11/06/2024,06/16/2024,2024-06-11 13:09:00,Purchase order for Pied Piper Compression,
+INV-11474,Hooli Cloud Services, 11126.35 ,2023-12-03,2023-12-03T00:00:00,2023-12-03 11:00:00,Weekend posting test,Operations
+INV-10164,Dunder Mifflin Paper,31503.86,2024-08-08,10/08/2024,2024-08-08 17:58:00,Purchase order for Dunder Mifflin Paper,
+INV-10941,Bluth Company,"$40,682.99",2023-11-25,2023-11-25,2023-11-25 11:00:00,Weekend posting test,Operations
+INV-10784,Pied Piper Compression,19707.01,"August 22, 2023",2023-08-24,2023-08-22 12:42:00,Purchase order for Pied Piper Compression,Procurement
+INV-10902,Oscorp Chemical,19255.29,2024-10-02T00:00:00,10/03/2024,2024-10-02 11:27:00,Purchase order for Oscorp Chemical,
+INV-10969,Globex Industrial,24958.16,10/24/2024,2024-10-24,2024-10-24 06:41:00,After-hours entry test,IT
+INV-10005,Ünïcode Vendörs Ltd., 20060.39 ,04/18/2023,"April 23, 2023",2023-04-18 18:05:00,Purchase order for Ünïcode Vendörs Ltd.,IT
+INV-10402,Initech Consulting,25567.86,07/02/2024,09/02/2024,2024-02-07 15:21:00,Purchase order for Initech Consulting,Marketing
+INV-10917,Stark Materials Co.,--,01/16/2023,01/16/2023,2023-01-16 17:57:00,Purchase order for Stark Materials Co.,Finance
+INV-10442,Contoso Manufacturing,3817.36,12-Apr-2024,16/04/2024,2024-04-12 09:27:00,Purchase order for Contoso Manufacturing,
+INV-11146,Los Pollos Hermanos, 1820.75 ,"September 11, 2023",2023-09-11,2023-09-11 16:51:00,Purchase order for Los Pollos Hermanos,Marketing
+INV-10242,Sterling Cooper Ads,28427.29,2024-06-01T00:00:00,03/06/2024,2024-06-01 16:43:00,Purchase order for Sterling Cooper Ads,null
+INV-10868,Aperture Science, 21500.00 ,02/08/2023,2023-02-08T00:00:00,2023-02-08 14:00:00,Round dollar test,Procurement
+INV-11178,Initech Consulting,"23,015.34","June 18, 2023",06/18/2023,2023-06-18 10:13:00,Purchase order for Initech Consulting,Operations
+INV-11021,  Hooli Cloud Services  ,"$24,106.77",07/01/2024,2024-07-01,2024-07-01 17:17:00,Purchase order for Hooli Cloud Services,Facilities
+INV-10213,Prestige Worldwide,"17,534.45","June 24, 2023","June 27, 2023",2023-06-24 17:37:00,Purchase order for Prestige Worldwide,Marketing
+INV-10569,Aperture Science,"$22,463.78",2023-06-11,2023-06-13T00:00:00,2023-06-11 13:06:00,  Purchase order for Aperture Science  ,
+INV-11470,Umbrella Logistics,"28,587.49",26-May-2024,29-May-2024,2024-05-26 11:37:00,Purchase order for Umbrella Logistics,
+INV-11068,Wonka Distribution,"$31,179.53",2023-12-10T00:00:00,13-Dec-2023,2023-12-10 14:00:00,Purchase order for Wonka Distribution,None
+INV-10403,Acme Global Holdings,33574.73,15-Mar-2024,18-Mar-2024,2024-03-15 11:35:00,Purchase order for Acme Global Holdings,
+INV-10214,  Initech Consulting  ,12575.02,2024-11-08,2024-11-11T00:00:00,2024-11-08 13:40:00,Purchase order for Initech Consulting,Procurement
+INV-10132,Los Pollos Hermanos, 21454.16 ,"May 07, 2024",2024-05-11T00:00:00,2024-05-07 10:43:00,Purchase order for Los Pollos Hermanos,Finance
+INV-10113,Initech Consulting,20819.00,05-Feb-2023,02/08/2023,2023-02-05 07:36:00,Purchase order for Initech Consulting,IT
+INV-10025,Wonka Distribution,19494.93,"October 20, 2024",2024-10-20,2024-10-20 16:51:00,Purchase order for Wonka Distribution,Procurement
+INV-10323,  北京贸易公司  ,6061.80,2023-12-15T00:00:00,17-Dec-2023,2023-12-15 12:06:00,Purchase order for 北京贸易公司,Facilities
+INV-10426,Wayne Enterprises,"43,668.72",02/23/2024,26-Feb-2024,2024-02-23 17:17:00,Purchase order for Wayne Enterprises,None
+INV-11288,Oscorp Chemical,"22,358.06",2023-07-15,20/07/2023,2023-07-15 09:18:00,Purchase order for Oscorp Chemical,Finance
+INV-10554,Gekko & Co Capital,39674.96,12-Oct-2023,"October 17, 2023",2023-10-12 08:31:00,Purchase order for Gekko & Co Capital,Procurement
+INV-10143,Genco Pura Olive Oil,"30,806.00",07/11/2024,2024-11-09T00:00:00,2024-11-07 12:53:00,Purchase order for Genco Pura Olive Oil,Procurement
+INV-10110,Pied Piper Compression, 29341.02 ,"March 13, 2024",14/03/2024,2024-03-13 07:39:00,Purchase order for Pied Piper Compression,IT
+INV-10530,Hooli Cloud Services,1500.00,2023-01-18T00:00:00,01/18/2023,2023-01-18 14:00:00,Round dollar test,Procurement
+INV-10998,Acme Global Holdings,10798.92,2024-09-01T00:00:00,2024-09-04T00:00:00,2024-09-01 17:15:00,  Purchase order for Acme Global Holdings  ,N/A
+INV-10598,Bluth Company,33201.77,28/12/2024,2024-12-28,2024-12-28 08:09:00,Purchase order for Bluth Company,
+INV-10948,Oscorp Chemical,24895.21,2024-11-04,"November 07, 2024",2024-11-04 10:46:00,Purchase order for Oscorp Chemical,Facilities
+INV-10717,Oscorp Chemical,"$31,586.30",2023-11-19,2023-11-24T00:00:00,2023-11-19 17:31:00,Purchase order for Oscorp Chemical,Facilities
+INV-11057,Initech Consulting,43040.68,2023-03-09T00:00:00,"March 12, 2023",2023-03-09 13:20:00,Purchase order for Initech Consulting,Marketing
+INV-10190,Acme Global Holdings,41505.78,05/03/2024,10/03/2024,2024-03-05 14:03:00,Purchase order for Acme Global Holdings,Procurement
+INV-10889,Cyberdyne Systems,41501.32,2024-12-03,"December 06, 2024",2024-12-03 18:10:00,Purchase order for Cyberdyne Systems,-
+INV-10526,Initech Consulting,14061.78,10-Jul-2024,10/07/2024,2024-07-10 12:16:00,Purchase order for Initech Consulting,NA
+INV-10293,Soylent Foods Ltd.,"$2,421.20",09-Apr-2024,13/04/2024,2024-04-09 18:37:00,Purchase order for Soylent Foods Ltd.,Marketing
+INV-10713,Acme Global Holdings,"$31,220.46",2023-10-15,19-Oct-2023,2023-10-15 09:16:00,Purchase order for Acme Global Holdings,None
+INV-11316,Initech Consulting,27894.32,05/16/2023,05/20/2023,2023-05-16 17:11:00,  Purchase order for Initech Consulting  ,IT
+INV-11252,Oscorp Chemical,4164.96,28/12/2023,2023-12-29,2023-12-28 07:53:00,Purchase order for Oscorp Chemical,
+INV-11017,Genco Pura Olive Oil,30169.25,23/03/2023,"March 26, 2023",2023-03-23 10:04:00,Purchase order for Genco Pura Olive Oil,Facilities
+INV-10277,Prestige Worldwide,30933.45,30-Nov-2023,2023-12-02T00:00:00,2023-11-30 09:27:00,Purchase order for Prestige Worldwide,
+INV-11376,Bluth Company,20018.44,04/11/2023,2023-11-09,2023-11-04 09:29:00,  Purchase order for Bluth Company  ,Facilities
+INV-11299,Acme Global Holdings,11836.23,2023-12-20T00:00:00,12/25/2023,2023-12-20 17:21:00,Purchase order for Acme Global Holdings,Procurement
+INV-10818,Globex Industrial,35056.04,28/01/2024,02/01/2024,2024-01-28 17:14:00,Purchase order for Globex Industrial,N/A
+INV-11126,Umbrella Logistics,2833.59,2023-05-14,2023-05-14T00:00:00,2023-05-14 15:54:00,Purchase order for Umbrella Logistics,Operations
+INV-10523,Gekko & Co Capital,5198.45,08-Nov-2023,09-Nov-2023,2023-11-08 15:18:00,  Purchase order for Gekko & Co Capital  ,Procurement
+INV-10014,Los Pollos Hermanos,"$37,968.82",2024-11-01T00:00:00,2024-11-03,2024-11-01 18:09:00,Purchase order for Los Pollos Hermanos,IT
+INV-10747,Soylent Foods Ltd.,"$6,844.22",2023-06-03,2023-06-03,2023-06-03 13:42:00,  Purchase order for Soylent Foods Ltd.  ,
+INV-11414,Northwind Traders,41547.90,2023-03-25,03/29/2023,2023-03-25 14:16:00,Purchase order for Northwind Traders,
+INV-10730,Aperture Science,"$13,606.12",07/10/2024,2024-10-07T00:00:00,2024-10-07 12:35:00,Purchase order for Aperture Science,Facilities
+INV-10058,Acme Global Holdings, 28640.51 ,2024-10-20,24/10/2024,2024-10-20 14:19:00,Purchase order for Acme Global Holdings,Procurement
+INV-10728,Soylent Foods Ltd.,7109.11,10/06/2023,15/06/2023,2023-06-10 15:55:00,Purchase order for Soylent Foods Ltd.,Facilities
+INV-10820,北京贸易公司, 13607.66 ,12/17/2024,"December 17, 2024",2024-12-17 10:22:00,Purchase order for 北京贸易公司,Facilities
+INV-10091,Initech Consulting,17091.67,2024-08-04T00:00:00,2024-08-09,2024-08-04 09:50:00,Purchase order for Initech Consulting,Operations
+INV-10046,Soylent Foods Ltd., 13644.42 ,"August 03, 2024",03/08/2024,2024-08-03 11:00:00,Weekend posting test,Operations
+INV-10456,北京贸易公司,"33,197.95",03/30/2023,02-Apr-2023,2023-03-30 08:35:00,Purchase order for 北京贸易公司,Finance
+INV-10584,Umbrella Logistics,"$42,846.82",14-Aug-2023,"August 14, 2023",2023-08-14 10:00:00,Possible duplicate payment,Finance
+INV-10093,Gekko & Co Capital,"39,593.09",05/13/2023,2023-05-14,2023-05-13 16:41:00,  Purchase order for Gekko & Co Capital  ,Marketing
+INV-10570,Contoso Manufacturing, 23531.06 ,20/12/2024,2024-12-22T00:00:00,2024-12-20 13:51:00,Purchase order for Contoso Manufacturing,Operations
+INV-11404,  Tyrell Corporation  ,38715.68,"September 23, 2024","September 23, 2024",2024-09-23 08:01:00,Purchase order for Tyrell Corporation,Procurement
+INV-10223,Los Pollos Hermanos,36983.80,10-May-2024,11/05/2024,2024-05-10 10:01:00,Purchase order for Los Pollos Hermanos,Finance
+INV-10136,Umbrella Logistics, 18757.66 ,11-Aug-2024,12-Aug-2024,2024-08-11 08:02:00,Purchase order for Umbrella Logistics,Facilities
+INV-10223,NaN,36983.80,10-May-2024,11/05/2024,2024-05-10 10:01:00,Purchase order for Los Pollos Hermanos,Finance
+INV-11407,Initech Consulting,"$41,762.00",2024-07-14,18-Jul-2024,2024-07-14 14:44:00,Purchase order for Initech Consulting,Facilities
+INV-10836,Prestige Worldwide,"$41,553.34",09-Nov-2024,13-Nov-2024,2024-11-09 14:59:00,Purchase order for Prestige Worldwide,
+INV-10973,Wonka Distribution,33256.94,2024-08-15T00:00:00,2024-08-17T00:00:00,2024-08-15 10:02:00,Purchase order for Wonka Distribution,Marketing
+INV-10588,Genco Pura Olive Oil,"4,490.11",08/03/2023,"August 04, 2023",2023-08-03 14:48:00,Purchase order for Genco Pura Olive Oil,Procurement
+INV-11347,Fabrikam Supplies,26734.16,03/18/2024,2024-03-18T00:00:00,2024-03-18 13:39:00,  Purchase order for Fabrikam Supplies  ,Finance
+INV-10465,Wonka Distribution,27778.65,2023-07-05T00:00:00,10-Jul-2023,2023-07-05 13:19:00,  Purchase order for Wonka Distribution  ,Facilities
+INV-10130,Acme Global Holdings,23477.09,04/11/2024,"April 15, 2024",2024-04-11 07:49:00,Purchase order for Acme Global Holdings,Finance
+INV-10875,Wayne Enterprises,22538.44,"March 22, 2023",03/22/2023,2023-03-22 12:53:00,Purchase order for Wayne Enterprises,IT
+INV-11295,Bluth Company,6483.46,29/06/2023,2023-06-30,2023-06-29 14:59:00,Purchase order for Bluth Company,
+INV-10970,Prestige Worldwide,18761.59,27-Mar-2024,03/30/2024,2024-03-27 08:17:00,Purchase order for Prestige Worldwide,IT
+INV-10504,Fabrikam Supplies,11995.02,2023-10-26T00:00:00,2023-10-31T00:00:00,2023-10-26 18:18:00,Purchase order for Fabrikam Supplies,Procurement
+INV-10454,  Contoso Manufacturing  ,21969.29,29-Jan-2023,2023-02-01,2023-01-29 13:33:00,Purchase order for Contoso Manufacturing,Operations
+INV-11459,  Ünïcode Vendörs Ltd.  ,20226.77,2023-09-15,09/15/2023,2023-09-15 14:46:00,Purchase order for Ünïcode Vendörs Ltd.,IT
+INV-11492,Vandelay Industries,397.96,2023-05-09,"May 10, 2023",2023-05-09 09:00:00,Duplicate test group 2 copy 1,Procurement
+INV-10550,Umbrella Logistics,"$33,573.69",2024-10-01,2024-10-01,2024-10-01 16:12:00,Purchase order for Umbrella Logistics,Marketing
+INV-11226,Wayne Enterprises,31922.77,30/07/2024,02/08/2024,2024-07-30 08:39:00,Purchase order for Wayne Enterprises,Procurement
+INV-10864,Vandelay Industries,23603.22,03-Mar-2024,06-Mar-2024,2024-03-03 15:53:00,Purchase order for Vandelay Industries,Facilities
+INV-11026,Genco Pura Olive Oil,24319.72,12/24/2024,"December 25, 2024",2024-12-24 17:44:00,  Purchase order for Genco Pura Olive Oil  ,Facilities
+INV-10817,Northwind Traders,35389.52,03/27/2024,2024-03-27,2024-03-27 10:00:00,Possible duplicate payment,N/A
+INV-10550,Umbrella Logistics,null,2024-10-01,2024-10-01,2024-10-01 16:12:00,Purchase order for Umbrella Logistics,Marketing
+INV-10392,Ünïcode Vendörs Ltd.,"16,213.61",26/07/2023,"July 26, 2023",2023-07-26 13:45:00,Purchase order for Ünïcode Vendörs Ltd.,Procurement
+INV-10188,Weyland-Yutani Corp,2176891.18,"November 18, 2024","November 18, 2024",2024-11-18 09:00:00,Vendor concentration test,Procurement
+INV-10080,  Oscorp Chemical  ,379.68,26-Dec-2024,2024-12-26T00:00:00,2024-12-26 07:02:00,Purchase order for Oscorp Chemical,IT
+INV-10285,  Hooli Cloud Services  ,"$29,365.41",2023-08-23T00:00:00,08/27/2023,2023-08-23 07:01:00,  Purchase order for Hooli Cloud Services  ,Procurement
+INV-10104,Stark Materials Co.,11329.85,2023-08-13,08/14/2023,2023-08-13 09:00:00,Duplicate test group 4 copy 0,Procurement
+INV-10024,Stark Materials Co.,25985.43,2023-02-03,"February 07, 2023",2023-02-03 17:39:00,Purchase order for Stark Materials Co.,Operations
+INV-10794,Bluth Company,9348.85,08/01/2023,01/12/2023,2023-01-08 13:20:00,Purchase order for Bluth Company,Procurement
+INV-10310,  Initech Consulting  ,30837.86,06/01/2023,04-Jun-2023,2023-06-01 14:29:00,Purchase order for Initech Consulting,Finance
+INV-10218,Los Pollos Hermanos,3207.28,11/06/2023,2023-06-15T00:00:00,2023-06-11 17:29:00,  Purchase order for Los Pollos Hermanos  ,Finance
+INV-10575,Wayne Enterprises,"$37,116.53",27-Oct-2023,"October 27, 2023",2023-10-27 10:05:00,Purchase order for Wayne Enterprises,null
+INV-10121,None, 9404.63 ,2024-02-22,24/02/2024,2024-02-22 13:41:00,Purchase order for 北京贸易公司,IT
+INV-10303,Massive Dynamic, 15873.48 ,25/12/2023,2023-12-29T00:00:00,2023-12-25 11:29:00,Purchase order for Massive Dynamic,-
+INV-10753,Cyberdyne Systems,11000.00,2024-11-03T00:00:00,"November 03, 2024",2024-11-03 14:00:00,Round dollar test,Procurement
+INV-10295,Vandelay Industries,21796.76,07/21/2023,07/24/2023,2023-07-21 17:20:00,  Purchase order for Vandelay Industries  ,Finance
+INV-10071,🚀 Rocket Supplies Inc., 19000.00 ,03/23/2023,2023-03-23T00:00:00,2023-03-23 14:00:00,Round dollar test,Procurement
+INV-11278,Los Pollos Hermanos,11974.62,2023-07-13T00:00:00,2023-07-14T00:00:00,2023-07-13 09:00:00,Duplicate test group 3 copy 1,Procurement
+INV-10031,  Stark Materials Co.  ,3875.66,08/07/2024,2024-07-11T00:00:00,2024-07-08 13:58:00,  Purchase order for Stark Materials Co.  ,
+INV-10147,Bluth Company,1015.50,31/03/2024,04-Apr-2024,2024-03-31 12:09:00,Purchase order for Bluth Company,Procurement
+INV-11210,Initech Consulting,"$6,275.12",14/03/2023,2023-03-14,2023-03-14 14:40:00,Purchase order for Initech Consulting,Operations
+INV-10211,  Globex Industrial  ,"6,297.88",24-Feb-2024,29-Feb-2024,2024-02-24 13:48:00,Purchase order for Globex Industrial,Marketing
+INV-11441,Contoso Manufacturing,94055.64,2023-04-09,"April 09, 2023",2023-04-09 15:00:00,Materiality breach test,Finance
+INV-10351,Genco Pura Olive Oil,27472.43,05/05/2023,2023-05-08,2023-05-05 13:02:00,Purchase order for Genco Pura Olive Oil,Operations
+INV-10897,Tyrell Corporation,"$15,028.20",2023-01-21,2023-01-21,2023-01-21 10:00:00,Dormant vendor test,Procurement
+INV-10926,Cyberdyne Systems,"2,492.25",2023-07-04T00:00:00,07/05/2023,2023-07-04 11:59:00,  Purchase order for Cyberdyne Systems  ,NA
+INV-11491,Genco Pura Olive Oil,3710.43,04/09/2024,14/04/2024,2024-04-09 13:34:00,Purchase order for Genco Pura Olive Oil,
+INV-11350,Acme Global Holdings,17429.39,06-Mar-2023,"March 09, 2023",2023-03-06 11:43:00,Purchase order for Acme Global Holdings,NaN
+INV-11471,Tyrell Corporation,"$34,055.53",08/06/2024,06/11/2024,2024-06-08 18:28:00,NA,Operations
+INV-11363,Gekko & Co Capital,"3,628.59",10/10/2023,2023-10-12,2023-10-10 10:25:00,Purchase order for Gekko & Co Capital,Procurement
+INV-11152,Sterling Cooper Ads,19644.19,02-Jan-2023,03/01/2023,2023-01-02 13:15:00,Purchase order for Sterling Cooper Ads,Facilities
+INV-10331,  Aperture Science  ,33752.06,--,2024-05-31T00:00:00,2024-05-28 17:55:00,Purchase order for Aperture Science,Marketing
+INV-10501,Gekko & Co Capital,40254.47,12/04/2024,12-Apr-2024,2024-04-12 16:09:00,Purchase order for Gekko & Co Capital,N/A
+INV-11250,Massive Dynamic,6952.97,2024-12-30T00:00:00,03/01/2025,2024-12-30 13:45:00,Purchase order for Massive Dynamic,
+INV-10994,Aperture Science,43796.86,2023-05-16T00:00:00,17-May-2023,2023-05-16 07:29:00,Purchase order for Aperture Science,None
+INV-10124,Contoso Manufacturing,17625.06,2023-07-10,2023-07-10,2023-07-10 10:11:00,Purchase order for Contoso Manufacturing,N/A
+INV-11449,Aperture Science Test Labs,35218.24,2024-09-22T00:00:00,09/22/2024,2024-09-22 09:00:00,New vendor high value test,Procurement
+INV-10066,None,20804.58,08/11/2024,11-Aug-2024,2024-08-11 13:45:00,Purchase order for Initech Consulting,Procurement
+INV-11301,  Cyberdyne Systems  ,"17,177.22",06/01/2024,"January 07, 2024",2024-01-06 12:27:00,Purchase order for Cyberdyne Systems,
+INV-11435,Aperture Science,10556.34,10/20/2024,10/24/2024,2024-10-20 09:45:00,  Purchase order for Aperture Science  ,
+INV-10338,Sterling Cooper Ads,11022.78,"September 16, 2023",21/09/2023,2023-09-16 08:11:00,Purchase order for Sterling Cooper Ads,null
+INV-11172,Stark Materials Co.,"$32,782.20",2023-03-31T00:00:00,2023-04-05,2023-03-31 18:24:00,Purchase order for Stark Materials Co.,Operations
+INV-11054,Bluth Company,42784.92,2023-02-03,2023-02-07,2023-02-03 16:21:00,Purchase order for Bluth Company,None
+INV-10497,Initech Consulting, 26706.51 ,"September 22, 2024",2024-09-25T00:00:00,2024-09-22 14:48:00,Purchase order for Initech Consulting,IT
+INV-10964,Pied Piper Compression,12999.55,2024-09-13,14-Sep-2024,2024-09-13 12:36:00,Purchase order for Pied Piper Compression,Finance
+INV-11286,Bluth Company,23344.91,09/27/2024,2024-09-27,2024-09-27 23:06:00,After-hours entry test,IT
+INV-11217,Soylent Foods Ltd., 4396.68 ,2024-02-24,2024-02-26,2024-02-24 12:31:00,Purchase order for Soylent Foods Ltd.,
+INV-11090,  Tyrell Corporation  ,14630.22,25-May-2024,2024-05-26T00:00:00,2024-05-25 16:07:00,Purchase order for Tyrell Corporation,
+INV-11230,Pied Piper Compression, 10176.26 ,2023-11-26,26-Nov-2023,2023-11-26 18:10:00,Purchase order for Pied Piper Compression,Procurement
+INV-11218,Ünïcode Vendörs Ltd.,"15,385.73",11/14/2023,2023-11-19,2023-11-14 07:49:00,Purchase order for Ünïcode Vendörs Ltd.,Finance
+INV-10854,Massive Dynamic,"16,283.83",08/21/2023,2023-08-21T00:00:00,2023-08-21 11:30:00,Purchase order for Massive Dynamic,
+INV-10103,  Sterling Cooper Ads  ,14213.64,09-Apr-2023,2023-04-14T00:00:00,2023-04-09 15:21:00,  Purchase order for Sterling Cooper Ads  ,
+INV-11192,Aperture Science,44660.17,2024-02-01,06/02/2024,2024-02-01 18:38:00,Purchase order for Aperture Science,Operations
+INV-11391,  Hooli Cloud Services  ,31247.49,"December 07, 2024",11/12/2024,2024-12-07 07:38:00,  Purchase order for Hooli Cloud Services  ,Facilities
+INV-10815,Wayne Enterprises,36675.06,09-Nov-2024,2024-11-10T00:00:00,2024-11-09 12:33:00,Purchase order for Wayne Enterprises,--
+INV-10518,北京贸易公司,"$23,512.26",06/24/2024,"June 24, 2024",2024-06-24 17:31:00,Purchase order for 北京贸易公司,NaN
+INV-10381,Prestige Worldwide,"$24,022.58",2024-04-09,"April 13, 2024",2024-04-09 11:56:00,Purchase order for Prestige Worldwide,
+INV-10594,Weyland-Yutani Corp,2264621.08,18/02/2023,18/02/2023,2023-02-18 09:00:00,Vendor concentration test,Procurement
+INV-10993,Cyberdyne Systems,"22,086.30",22-Aug-2024,2024-08-25,2024-08-22 15:03:00,Purchase order for Cyberdyne Systems,
+INV-11223,  Wayne Enterprises  ,"20,762.95",05/27/2024,31-May-2024,2024-05-27 16:42:00,Purchase order for Wayne Enterprises,null
+INV-10730,Aperture Science,"$13,606.12",07/10/2024,2024-10-07T00:00:00,2024-10-07 12:35:00,Purchase order for Aperture Science,Facilities
+INV-10980,🚀 Rocket Supplies Inc.,"33,514.54","October 18, 2024",2024-10-23,2024-10-18 07:17:00,Purchase order for 🚀 Rocket Supplies Inc.,Procurement
+INV-11009,Soylent Foods Ltd.,5757.05,18-Mar-2023,"March 21, 2023",2023-03-18 16:01:00,Purchase order for Soylent Foods Ltd.,Facilities
+INV-11091,Weyland-Yutani Corp,27435.79,"October 10, 2023",10/12/2023,2023-10-10 14:53:00,Purchase order for Weyland-Yutani Corp,N/A
+INV-10915,Globex Industrial,"$43,480.44",2023-08-19,19-Aug-2023,2023-08-19 13:25:00,Purchase order for Globex Industrial,
+INV-10253,Soylent Foods Ltd.,10229.77,"May 26, 2023",2023-05-29T00:00:00,2023-05-26 13:24:00,Purchase order for Soylent Foods Ltd.,IT
+INV-11369,Northwind Traders,12868.05,05/03/2024,2024-05-06T00:00:00,2024-05-03 17:51:00,  Purchase order for Northwind Traders  ,-
+INV-11244,Los Pollos Hermanos,34861.11,2024-01-17T00:00:00,20-Jan-2024,2024-01-17 12:54:00,Purchase order for Los Pollos Hermanos,Facilities
+INV-11344,Cyberdyne Systems,"$2,537.13",2024-07-09T00:00:00,07/09/2024,2024-07-09 11:11:00,Purchase order for Cyberdyne Systems,Operations
+INV-11006,Contoso Manufacturing,27113.27,"May 15, 2024",2024-05-16T00:00:00,2024-05-15 11:16:00,Purchase order for Contoso Manufacturing,Procurement
+INV-11479,Oscorp Chemical,6900.82,11/03/2023,07/11/2023,2023-11-03 13:09:00,Purchase order for Oscorp Chemical,Procurement
+INV-10209,Tyrell Corporation,23996.46,"August 22, 2024","August 22, 2024",2024-08-22 13:06:00,Purchase order for Tyrell Corporation,
+INV-10736,Umbrella Logistics,2472.11,30/11/2024,2024-12-02T00:00:00,2024-11-30 12:16:00,Purchase order for Umbrella Logistics,Procurement
+INV-10347,Cyberdyne Systems, 3790.76 ,08/10/2024,11/10/2024,2024-10-08 18:36:00,  Purchase order for Cyberdyne Systems  ,
+INV-10160,  Genco Pura Olive Oil  ,"5,571.24",29/09/2023,30-Sep-2023,2023-09-29 11:52:00,Purchase order for Genco Pura Olive Oil,
+INV-10108,Initech Consulting,"$36,452.92",24-Aug-2023,2023-08-27T00:00:00,2023-08-24 16:30:00,Purchase order for Initech Consulting,Procurement
+INV-11464,Soylent Foods Ltd.,"14,165.07",2023-07-27T00:00:00,29-Jul-2023,2023-07-27 08:15:00,Purchase order for Soylent Foods Ltd.,Facilities
+INV-10951,Dunder Mifflin Paper,"16,305.05",17/05/2023,"May 17, 2023",2023-05-17 09:03:00,Purchase order for Dunder Mifflin Paper,Facilities
+INV-10289,Weyland-Yutani Corp,2140309.27,"November 12, 2023",2023-11-12T00:00:00,2023-11-12 09:00:00,Vendor concentration test,Procurement
+INV-11040,Globex Industrial,"40,135.65",2024-05-20,24-May-2024,2024-05-20 11:47:00,Purchase order for Globex Industrial,IT
+INV-11473,Los Pollos Hermanos,8723.52,26/12/2023,26/12/2023,2023-12-26 12:54:00,  Purchase order for Los Pollos Hermanos  ,Marketing
+INV-10517,Hooli Cloud Services,27680.51,2023-01-16,2023-01-16,2023-01-16 11:23:00,Purchase order for Hooli Cloud Services,Operations
+INV-10979,Bluth Company,39414.12,04/27/2024,"April 28, 2024",2024-04-27 13:29:00,Purchase order for Bluth Company,NaN
+INV-10411,Prestige Worldwide,27711.19,2023-05-15,2023-05-16,2023-05-15 07:04:00,Purchase order for Prestige Worldwide,
+INV-10398,Hooli Cloud Services,"27,883.55","September 08, 2024",09/09/2024,2024-09-08 08:46:00,Purchase order for Hooli Cloud Services,Procurement
