@@ -1,4 +1,12 @@
+from dotenv import load_dotenv
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+# pydantic-settings parses .env into this Settings object only — it does NOT
+# copy values into os.environ. LiteLLM reads provider-specific config
+# (e.g. Azure's AZURE_API_BASE/AZURE_API_VERSION) straight from os.environ,
+# so we load .env into the process environment here as well. Harmless no-op
+# if .env is missing (falls back to whatever's already in the environment).
+load_dotenv()
 
 
 class Settings(BaseSettings):

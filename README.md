@@ -40,6 +40,17 @@ graph TD
 - In-memory SQL: DuckDB
 - Database: SQLite with Alembic for migrations
 
+## Configuring the LLM provider
+
+The app defaults to Gemini (query generation) + a local Ollama model (per-finding explanations), since that's what the developer had free access to. If you only have an OpenAI or Azure OpenAI key, no code changes are needed — just edit `backend/.env` (copy it from `backend/.env.template` if you haven't already):
+
+1. Open `backend/.env.template` and find the `Option B: OpenAI` / `Option C: Azure OpenAI` commented blocks under `--- LLM (Provider-Agnostic via LiteLLM) ---`.
+2. Comment out the default (`Option A: Gemini`) lines and uncomment the block matching your provider, for both the main `LLM_MODEL` and the `FINDINGS_LLM_MODEL` sections.
+3. Fill in your API key (and, for Azure, the endpoint/deployment name/API version).
+4. Restart the backend.
+
+This works because all LLM calls go through one provider-agnostic client (`backend/app/llm/client.py`, via LiteLLM) — switching provider is purely an env var change.
+
 ## Project structure
 
 - `frontend/`: the Next.js frontend application.
