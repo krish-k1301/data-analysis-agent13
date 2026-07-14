@@ -6,8 +6,7 @@ import "./globals.css";
 
 const navItems = [
   { href: "/", label: "Dashboard", icon: "■" },
-  { href: "/upload", label: "Upload", icon: "▲" },
-  { href: "/datasets/DS-001", label: "Datasets", icon: "◆" },
+  { href: "/datasets", label: "Datasets", icon: "◆" },
   { href: "/findings", label: "Findings", icon: "▶" },
   { href: "/review", label: "Review Queue", icon: "◈" },
 ];
