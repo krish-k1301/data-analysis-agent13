@@ -1,28 +1,31 @@
 # Agentic AI Data Analysis Agent
 
-A LangGraph-based agentic analysis engine that ingests structured datasets, cleans them, fits them to a schema, and runs audit-focused procedures. The system utilizes an LLM to generate audit-perspective explanations and allows for SQL querying on cleaned data via DuckDB.
+A LangGraph-based audit analysis engine. It ingests a raw transactions file (CSV or XLSX), cleans it, fits it to a schema, and runs it through 15 audit rules plus a set of statistical checks. Findings get an LLM-generated audit-perspective explanation on top of the deterministic rule output, and the cleaned data can be queried directly with SQL (or with plain English, translated to SQL by an LLM).
 
-## Key Features
+This is the second of two LangGraph projects built during an EY internship. The first was a small multi-agent assistant used to learn the basics of StateGraph and tool calling ([multi-agent-assistant](https://github.com/krish-k1301/multi-agent-assistant)). This one applies those basics to a real audit workflow. See [INTERNSHIP_REPORT.md](./INTERNSHIP_REPORT.md) for the full writeup: design decisions, the pipeline's parallel-branch fix, the local-vs-hosted LLM split, and the bugs that shaped it along the way.
 
-- **Data Ingestion & Cleaning**: Ingests CSV and XLSX files, validates data, and maps it to proper schemas.
-- **Audit Rules Engine**: Runs 15 built-in audit rules (e.g., duplicate invoices, threshold breaches, weekend postings) with configurable thresholds.
-- **Statistical Analysis**: Performs outlier detection, trend analysis, variance analysis, and distribution analysis (including Benford's Law).
-- **LLM-Powered Explanations**: Uses LiteLLM (provider-agnostic, supporting Gemini, OpenAI, Anthropic, etc.) to enrich deterministic audit findings with deeper analysis and insights.
-- **SQL Query Interface**: Employs DuckDB for in-memory querying of the cleaned dataset.
-- **LangGraph Architecture**: Built as a StateGraph with typed states, tool-calling for the LLM, and composability for future multi-agent integrations.
+## Key features
 
-## Tech Stack
+- Data ingestion and cleaning: ingests CSV and XLSX files, cleans them (whitespace, dates, nulls, dedup, with a change log), and infers column roles (vendor, amount, date, invoice number).
+- Audit rules engine: 15 built-in rules (duplicate invoices, threshold breaches, weekend postings, dormant vendors, Benford's Law, and more), each toggleable per dataset with configurable thresholds.
+- Statistical analysis: z-score and IQR outlier detection, month-over-month/quarter-over-quarter trend variance, and distribution analysis.
+- LLM-powered explanations: LiteLLM (provider-agnostic, supports Gemini, OpenAI, Anthropic, Ollama, and others) enriches each deterministic finding with a richer explanation, falling back to the template explanation if the LLM call fails.
+- Natural-language query: ask a question in plain English on the query page and get back a validated, read-only SQL query and its results, run against DuckDB.
+- LangGraph pipeline: a 9-node StateGraph (ingest, clean, profile, schema_fit, validate_schema, audit_rules and statistics in parallel, risk_score, explain, persist), designed to be composable into a future multi-agent supervisor.
 
-- **Frontend**: Next.js (Dashboard, Uploads, Findings Review, Data Query)
-- **Backend API**: FastAPI (REST endpoints, asynchronous job handling)
-- **Agent Orchestration**: LangGraph
-- **LLM Layer**: LiteLLM
-- **In-Memory SQL**: DuckDB
-- **Database**: SQLite with Alembic for migrations
+## Tech stack
 
-## Project Structure
+- Frontend: Next.js (dashboard, upload, findings review, data query)
+- Backend API: FastAPI (REST endpoints, background job handling with progress polling)
+- Agent orchestration: LangGraph
+- LLM layer: LiteLLM, with a hosted model (Gemini) for NL-to-SQL and a local Ollama model for per-finding explanations
+- In-memory SQL: DuckDB
+- Database: SQLite with Alembic for migrations
 
-- `frontend/`: The Next.js frontend application.
-- `backend/`: The FastAPI backend, LangGraph engine, and LLM integration.
-- `artifacts/`: Project artifacts and generated outputs.
-- `uploads/`: Local storage for uploaded and processed datasets.
+## Project structure
+
+- `frontend/`: the Next.js frontend application.
+- `backend/`: the FastAPI backend, LangGraph engine, audit rules, and LLM integration.
+- `artifacts/`: project artifacts and generated outputs.
+- `backend/uploads/`: local storage for uploaded and processed datasets.
+- `INTERNSHIP_REPORT.md`: full writeup of the project.
