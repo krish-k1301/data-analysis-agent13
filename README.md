@@ -40,6 +40,36 @@ graph TD
 - In-memory SQL: DuckDB
 - Database: SQLite with Alembic for migrations
 
+## Running the app
+
+Requires Python 3.11+ and Node 20+ (see `requirements.md` for the full dependency list).
+
+### 1. Backend (FastAPI, port 8000)
+
+```
+cd backend
+python -m venv venv
+venv\Scripts\activate          # Windows (use `source venv/bin/activate` on macOS/Linux)
+pip install -r requirements.txt
+copy .env.template .env        # (`cp .env.template .env` on macOS/Linux) — then edit .env with your LLM key
+alembic upgrade head           # creates/updates the SQLite database
+uvicorn app.main:app --reload --port 8000
+```
+
+The API is now live at `http://localhost:8000` (docs at `http://localhost:8000/docs`).
+
+### 2. Frontend (Next.js, port 3000)
+
+In a second terminal:
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000` in a browser. The frontend expects the backend to be running on `http://localhost:8000` (hardcoded in `frontend/src/lib/api.ts`), and the backend's CORS is locked to `http://localhost:3000`, so both must run on these exact ports.
+
 ## Configuring the LLM provider
 
 The app defaults to Gemini (query generation) + a local Ollama model (per-finding explanations), since that's what the developer had free access to. If you only have an OpenAI or Azure OpenAI key, no code changes are needed — just edit `backend/.env` (copy it from `backend/.env.template` if you haven't already):
