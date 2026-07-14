@@ -4,7 +4,9 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-from app.services.audit_rules.base import AuditRule
+from app.services.audit_rules.base import AuditRule, row_snapshot
+
+MAX_FLAGGED_ROWS = 25
 
 BENFORD_EXPECTED = {d: np.log10(1 + 1 / d) for d in range(1, 10)}
 
@@ -22,6 +24,7 @@ class BenfordsLawRule(AuditRule):
 
         p_threshold = config.get("benford_p_value", 0.05)
         amounts = df["amount"].dropna()
+        amounts = amounts.abs()
         amounts = amounts[amounts > 0]
         if len(amounts) < 100:
             return []  # corpus too small for a reliable chi-squared test
@@ -41,9 +44,18 @@ class BenfordsLawRule(AuditRule):
         observed_pct = (observed_counts / total * 100).round(2).to_dict()
         expected_pct = {d: round(BENFORD_EXPECTED[d] * 100, 2) for d in range(1, 10)}
 
+        # Surface evidence: rows whose leading digit is the most over-represented
+        # relative to Benford's expectation, as a starting sample for the auditor.
+        deviation_by_digit = {d: observed_pct[d] - expected_pct[d] for d in range(1, 10)}
+        worst_digit = max(deviation_by_digit, key=deviation_by_digit.get)
+        worst_digit_idx = first_digits[first_digits == worst_digit].index
+        flagged_rows = [
+            row_snapshot(df, idx) for idx in worst_digit_idx[:MAX_FLAGGED_ROWS]
+        ]
+
         return [
             self.make_finding(
-                flagged_rows=[],
+                flagged_rows=flagged_rows,
                 supporting_metrics={
                     "chi_squared": float(chi2),
                     "p_value": float(p_value),
@@ -54,8 +66,10 @@ class BenfordsLawRule(AuditRule):
                 audit_explanation=(
                     f"The first-digit distribution of {total} amount values deviates significantly "
                     f"from Benford's Law (chi-squared={chi2:.2f}, p={p_value:.4f} < {p_threshold}). "
+                    f"Leading digit {worst_digit} is the most over-represented "
+                    f"({observed_pct[worst_digit]}% observed vs {expected_pct[worst_digit]}% expected). "
                     f"This may indicate fabricated, estimated, or manipulated figures across the "
-                    f"dataset and warrants further sampling."
+                    f"dataset and warrants further sampling of the rows below."
                 ),
                 trace={
                     "rule_file": "audit_rules/benfords_law.py",

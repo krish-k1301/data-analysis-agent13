@@ -10,6 +10,17 @@ NULL_TOKENS = {"", "na", "n/a", "null", "none", "nan", "-", "--"}
 _NUMERIC_RE = re.compile(r"^\(?-?\$?\s?[\d,]+\.?\d*\)?%?$")
 
 
+def _is_text_column(series: pd.Series) -> bool:
+    """True for raw text/object columns. Deliberately dtype-based rather than
+    `pd.api.types.is_string_dtype`, which content-infers and returns False for
+    an object-dtype column containing even one null — since ingestion loads
+    every column via `dtype=str`, virtually every real column has nulls, so
+    that check silently skipped whitespace-stripping/null-normalization/type
+    coercion for almost all data (see memory: windows-server-env-gotchas).
+    """
+    return pd.api.types.is_object_dtype(series) or isinstance(series.dtype, pd.StringDtype)
+
+
 def _looks_numeric(series: pd.Series, threshold: float = 0.8) -> bool:
     non_null = series.dropna()
     if non_null.empty:
@@ -57,7 +68,7 @@ def clean_dataframe(df: pd.DataFrame) -> tuple[pd.DataFrame, list[dict]]:
 
     # 1. Strip whitespace + sanitize formula injection on string cells
     for col in df.columns:
-        if pd.api.types.is_string_dtype(df[col]):
+        if _is_text_column(df[col]):
             df[col] = df[col].apply(
                 lambda v: sanitize_formula_injection(v.strip()) if isinstance(v, str) else v
             )
@@ -73,7 +84,7 @@ def clean_dataframe(df: pd.DataFrame) -> tuple[pd.DataFrame, list[dict]]:
         return v
 
     for col in df.columns:
-        if pd.api.types.is_string_dtype(df[col]):
+        if _is_text_column(df[col]):
             df[col] = df[col].apply(_normalize_null)
     if null_replacements:
         log.append({"step": "normalize_nulls", "count": null_replacements})
@@ -88,7 +99,7 @@ def clean_dataframe(df: pd.DataFrame) -> tuple[pd.DataFrame, list[dict]]:
 
     # 4. Type coercion: numeric-looking and date-looking columns
     for col in df.columns:
-        if not pd.api.types.is_string_dtype(df[col]):
+        if not _is_text_column(df[col]):
             continue
         if _looks_numeric(df[col]):
             coerced = _coerce_numeric(df[col])

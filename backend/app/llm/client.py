@@ -44,6 +44,7 @@ def get_completion(messages: list[dict], tools: list[dict] | None = None, tool_c
         api_key=settings.LLM_API_KEY,
         messages=messages,
         temperature=0.2,
+        timeout=settings.LLM_TIMEOUT_SECONDS,
     )
     if tools:
         kwargs["tools"] = tools

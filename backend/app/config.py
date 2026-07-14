@@ -14,6 +14,7 @@ class Settings(BaseSettings):
     # LLM (provider-agnostic via LiteLLM)
     LLM_MODEL: str = "gemini/gemini-2.5-flash"
     LLM_API_KEY: str = ""
+    LLM_TIMEOUT_SECONDS: int = 30
 
     # Audit configuration defaults
     MATERIALITY_THRESHOLD: float = 50000

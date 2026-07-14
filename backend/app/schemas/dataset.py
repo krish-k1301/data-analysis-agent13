@@ -65,3 +65,14 @@ class QueryResponse(BaseModel):
     columns: list[str]
     rows: list[dict[str, Any]]
     row_count: int
+
+
+class NLQueryRequest(BaseModel):
+    question: str
+
+
+class NLQueryResponse(BaseModel):
+    sql: str
+    columns: list[str]
+    rows: list[dict[str, Any]]
+    row_count: int
