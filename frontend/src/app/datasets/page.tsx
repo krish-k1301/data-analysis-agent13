@@ -2,12 +2,14 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { getDatasets } from "@/lib/api";
 import { formatDateTime } from "@/lib/format";
 import type { Dataset } from "@/lib/types";
 import DatasetProgress from "@/components/DatasetProgress";
 
 export default function DatasetsPage() {
+  const router = useRouter();
   const [datasets, setDatasets] = useState<Dataset[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -69,7 +71,11 @@ export default function DatasetsPage() {
               )}
               {!loading &&
                 datasets.map((ds) => (
-                  <tr key={ds.id} className="link-row">
+                  <tr
+                    key={ds.id}
+                    className="link-row"
+                    onDoubleClick={() => router.push(`/datasets/${ds.id}`)}
+                  >
                     <td className="cell-mono">{ds.id}</td>
                     <td>
                       <Link href={`/datasets/${ds.id}`} style={{ color: "var(--text-primary)" }}>
@@ -89,7 +95,7 @@ export default function DatasetsPage() {
                       />
                     </td>
                     <td className="cell-mono">{formatDateTime(ds.created_at)}</td>
-                    <td className="cell-right">
+                    <td className="cell-right" onDoubleClick={(e) => e.stopPropagation()}>
                       <Link href={`/datasets/${ds.id}/query`}>
                         <button
                           className="btn btn-primary"
