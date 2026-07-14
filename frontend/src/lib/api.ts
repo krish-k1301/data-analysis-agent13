@@ -1,4 +1,4 @@
-import type { Dataset, DatasetProfile, Finding, NLQueryResult, QueryResult, ReviewAction, SchemaMapping } from "./types";
+import type { Dataset, DatasetProfile, Finding, JobStatus, NLQueryResult, QueryResult, ReviewAction, SchemaMapping } from "./types";
 
 const API_BASE_URL = "http://localhost:8000/api";
 const DEFAULT_TIMEOUT_MS = 15000;
@@ -47,7 +47,7 @@ export async function uploadDataset(file: File) {
   return response.json();
 }
 
-export async function getDatasetStatus(id: string) {
+export async function getDatasetStatus(id: string): Promise<JobStatus> {
   const response = await apiFetch(`/jobs/${id}/status`);
   if (!response.ok) throw new Error("Failed to fetch status");
   return response.json();

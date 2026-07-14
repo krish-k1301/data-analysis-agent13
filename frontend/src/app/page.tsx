@@ -3,8 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { deleteDataset, getAllFindings, getDatasets, uploadDataset } from "@/lib/api";
-import { datasetStatusBadgeClass, formatDateTime } from "@/lib/format";
+import { formatDateTime } from "@/lib/format";
 import type { Dataset, Finding } from "@/lib/types";
+import DatasetProgress from "@/components/DatasetProgress";
 
 export default function DashboardPage() {
   const [datasets, setDatasets] = useState<Dataset[]>([]);
@@ -211,18 +212,36 @@ export default function DashboardPage() {
                       </Link>
                     </td>
                     <td>
-                      <span className={`badge ${datasetStatusBadgeClass(ds.status)}`}>{ds.status}</span>
+                      <DatasetProgress
+                        datasetId={ds.id}
+                        initialStatus={ds.status}
+                        initialProgressPct={ds.progress_pct}
+                        initialCurrentStep={ds.current_step}
+                        initialError={ds.error}
+                        onSettled={loadData}
+                      />
                     </td>
                     <td className="cell-mono">{formatDateTime(ds.created_at)}</td>
                     <td className="cell-right">
-                      <button
-                        className="btn btn-secondary"
-                        style={{ fontSize: "11px", padding: "4px 10px" }}
-                        onClick={() => handleDelete(ds)}
-                        disabled={deletingId === ds.id}
-                      >
-                        {deletingId === ds.id ? "Deleting…" : "Delete"}
-                      </button>
+                      <div style={{ display: "flex", gap: "var(--space-sm)", justifyContent: "flex-end" }}>
+                        <Link href={`/datasets/${ds.id}/query`}>
+                          <button
+                            className="btn btn-primary"
+                            style={{ fontSize: "11px", padding: "4px 10px" }}
+                            disabled={ds.status !== "complete"}
+                          >
+                            Query
+                          </button>
+                        </Link>
+                        <button
+                          className="btn btn-secondary"
+                          style={{ fontSize: "11px", padding: "4px 10px" }}
+                          onClick={() => handleDelete(ds)}
+                          disabled={deletingId === ds.id}
+                        >
+                          {deletingId === ds.id ? "Deleting…" : "Delete"}
+                        </button>
+                      </div>
                     </td>
                   </tr>
                 ))}

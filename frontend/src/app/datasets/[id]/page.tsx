@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { getDatasetDetails, getDatasetProfile, getDatasetSchema, getExportUrl, getFindings } from "@/lib/api";
+import { getDatasetDetails, getDatasetProfile, getDatasetSchema, getFindings } from "@/lib/api";
 import { datasetStatusBadgeClass, formatDateTime } from "@/lib/format";
 import type { ColumnProfileEntry, Dataset, DatasetProfile, SchemaMapping } from "@/lib/types";
 import FindingsAccordion from "@/components/FindingsAccordion";
+import DatasetStatusPanel from "@/components/DatasetStatusPanel";
 
 interface DatasetProfilePageProps {
   params: Promise<{ id: string }>;
@@ -95,42 +96,8 @@ export default async function DatasetProfilePage({ params }: DatasetProfilePageP
         <p>Dataset profile and column-level statistics</p>
       </div>
 
-      {/* Status / progress banner for non-complete datasets */}
-      {!isComplete && (
-        <div className="card" style={{ marginBottom: "var(--space-xl)" }}>
-          {dataset.status === "failed" ? (
-            <p style={{ color: "var(--risk-high)" }}>
-              Analysis failed{dataset.error ? `: ${dataset.error}` : "."}
-            </p>
-          ) : (
-            <p style={{ color: "var(--text-secondary)" }}>
-              Analysis in progress ({dataset.current_step ?? dataset.status}) — {dataset.progress_pct}%
-              complete. Profile, stats, and findings will appear here once it finishes.
-            </p>
-          )}
-        </div>
-      )}
-
-      {/* Actions: Query + Download */}
-      <div className="card" style={{ marginBottom: "var(--space-xl)", padding: "var(--space-lg)" }}>
-        <div style={{ display: "flex", gap: "var(--space-md)", flexWrap: "wrap" }}>
-          <Link href={`/datasets/${dataset.id}/query`}>
-            <button className="btn btn-primary" disabled={!isComplete}>
-              Query This Dataset (SQL)
-            </button>
-          </Link>
-          {isComplete && (
-            <>
-              <a href={getExportUrl(dataset.id, "xlsx")}>
-                <button className="btn btn-secondary">Download XLSX</button>
-              </a>
-              <a href={getExportUrl(dataset.id, "csv")}>
-                <button className="btn btn-secondary">Download CSV</button>
-              </a>
-            </>
-          )}
-        </div>
-      </div>
+      {/* Status / progress banner + actions, live-updating while analysis runs */}
+      <DatasetStatusPanel dataset={dataset} />
 
       {/* About This Dataset — plain language */}
       {isComplete && (
