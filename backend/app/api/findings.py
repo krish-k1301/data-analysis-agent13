@@ -8,6 +8,11 @@ from app.schemas.finding import FindingOut, ReviewActionIn, ReviewActionOut
 router = APIRouter(tags=["findings"])
 
 
+@router.get("/findings", response_model=list[FindingOut])
+def list_all_findings(db: Session = Depends(get_db)):
+    return db.query(Finding).order_by(Finding.risk_score.desc()).all()
+
+
 @router.get("/findings/dataset/{dataset_id}", response_model=list[FindingOut])
 def get_findings_for_dataset(dataset_id: str, db: Session = Depends(get_db)):
     return (
