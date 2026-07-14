@@ -2,8 +2,6 @@
 
 A LangGraph-based audit analysis engine. It ingests a raw transactions file (CSV or XLSX), cleans it, fits it to a schema, and runs it through 15 audit rules plus a set of statistical checks. Findings get an LLM-generated audit-perspective explanation on top of the deterministic rule output, and the cleaned data can be queried directly with SQL (or with plain English, translated to SQL by an LLM).
 
-See [INTERNSHIP_REPORT.md](./INTERNSHIP_REPORT.md) for the full writeup: design decisions, the pipeline's parallel-branch fix, the local-vs-hosted LLM split, and the bugs that shaped it along the way.
-
 ## Key features
 
 - Data ingestion and cleaning: ingests CSV and XLSX files, cleans them (whitespace, dates, nulls, dedup, with a change log), and infers column roles (vendor, amount, date, invoice number).
@@ -15,9 +13,23 @@ See [INTERNSHIP_REPORT.md](./INTERNSHIP_REPORT.md) for the full writeup: design 
 
 ## LangGraph pipeline
 
-![LangGraph pipeline: start, ingest, clean, profile, schema_fit, validate_schema, then audit_rules and statistics in parallel, risk_score, explain, persist, end](./artifacts/langgraph_pipeline.png)
+```mermaid
+graph TD
+    START([start]) --> ingest[ingest]
+    ingest --> clean[clean]
+    clean --> profile[profile]
+    profile --> schema_fit[schema_fit]
+    schema_fit --> validate_schema[validate_schema]
+    validate_schema --> audit_rules[audit_rules]
+    validate_schema --> statistics[statistics]
+    audit_rules --> risk_score[risk_score]
+    statistics --> risk_score
+    risk_score --> explain[explain]
+    explain --> persist[persist]
+    persist --> END([end])
+```
 
-`audit_rules` and `statistics` run in parallel once `validate_schema` passes, then fan into `risk_score`. The image is rendered directly from the compiled graph object in `backend/app/workflow/graph.py` via `backend/generate_workflow_image.py`, so it stays in sync with the actual node wiring instead of a hand-drawn diagram going stale.
+`audit_rules` and `statistics` run in parallel once `validate_schema` passes, then fan into `risk_score`. This matches the node wiring in `backend/app/workflow/graph.py` exactly (see `backend/generate_workflow_image.py` for a PNG rendered straight from the compiled graph object).
 
 ## Tech stack
 
