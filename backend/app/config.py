@@ -12,9 +12,16 @@ class Settings(BaseSettings):
     MAX_FILE_SIZE_MB: int = 50
 
     # LLM (provider-agnostic via LiteLLM)
-    LLM_MODEL: str = "gemini/gemini-2.5-flash"
+    # Used for NL-question -> SQL query generation (needs a strong hosted model).
+    LLM_MODEL: str = "gemini/gemini-flash-latest"
     LLM_API_KEY: str = ""
     LLM_TIMEOUT_SECONDS: int = 30
+
+    # Used for per-finding audit explanations (runs many times per dataset,
+    # so it points at a local Ollama model instead of a rate-limited API).
+    FINDINGS_LLM_MODEL: str = "ollama_chat/llama3.1:8b"
+    FINDINGS_LLM_API_BASE: str = "http://localhost:11434"
+    FINDINGS_LLM_TIMEOUT_SECONDS: int = 60
 
     # Audit configuration defaults
     MATERIALITY_THRESHOLD: float = 50000

@@ -2,6 +2,7 @@ import json
 import logging
 from typing import Any
 
+from app.config import settings
 from app.llm.client import AUDIT_EXPLANATION_SYSTEM_PROMPT, LLMUnavailableError, get_completion
 from app.llm.tools import MAX_TOOL_ITERATIONS, TOOL_DEFINITIONS, execute_tool
 
@@ -33,9 +34,15 @@ def enrich_finding(finding: dict[str, Any], context: dict[str, Any]) -> str | No
         },
     ]
 
+    llm_kwargs = dict(
+        model=settings.FINDINGS_LLM_MODEL,
+        api_base=settings.FINDINGS_LLM_API_BASE,
+        timeout=settings.FINDINGS_LLM_TIMEOUT_SECONDS,
+    )
+
     try:
         for _ in range(MAX_TOOL_ITERATIONS):
-            response = get_completion(messages, tools=TOOL_DEFINITIONS)
+            response = get_completion(messages, tools=TOOL_DEFINITIONS, **llm_kwargs)
             message = response.choices[0].message
             tool_calls = getattr(message, "tool_calls", None)
             if not tool_calls:
@@ -55,7 +62,7 @@ def enrich_finding(finding: dict[str, Any], context: dict[str, Any]) -> str | No
                     }
                 )
         # Iteration cap reached: force a final answer without further tool calls
-        response = get_completion(messages)
+        response = get_completion(messages, **llm_kwargs)
         return response.choices[0].message.content
     except LLMUnavailableError:
         return None

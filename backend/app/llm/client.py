@@ -32,20 +32,39 @@ class LLMUnavailableError(Exception):
     pass
 
 
-def get_completion(messages: list[dict], tools: list[dict] | None = None, tool_choice: Any = None):
-    """Provider-agnostic LLM call via LiteLLM. Swap provider by changing
-    LLM_MODEL (and LLM_API_KEY) in .env — no code changes needed.
+def get_completion(
+    messages: list[dict],
+    tools: list[dict] | None = None,
+    tool_choice: Any = None,
+    model: str | None = None,
+    api_key: str | None = None,
+    api_base: str | None = None,
+    timeout: int | None = None,
+):
+    """Provider-agnostic LLM call via LiteLLM. Defaults to the query model
+    (LLM_MODEL/LLM_API_KEY in .env); pass model/api_base explicitly to target
+    a different backend (e.g. the local Ollama model used for findings —
+    see FINDINGS_LLM_MODEL). No code changes needed to swap providers.
     """
-    if not settings.LLM_API_KEY:
-        raise LLMUnavailableError("LLM_API_KEY is not configured")
+    model = model or settings.LLM_MODEL
+    api_base = api_base or None
+    is_local = model.startswith("ollama")
+
+    if api_key is None:
+        api_key = None if is_local else settings.LLM_API_KEY
+    if not is_local and not api_key:
+        raise LLMUnavailableError(f"No API key configured for model '{model}'")
 
     kwargs: dict[str, Any] = dict(
-        model=settings.LLM_MODEL,
-        api_key=settings.LLM_API_KEY,
+        model=model,
         messages=messages,
         temperature=0.2,
-        timeout=settings.LLM_TIMEOUT_SECONDS,
+        timeout=timeout or settings.LLM_TIMEOUT_SECONDS,
     )
+    if api_key:
+        kwargs["api_key"] = api_key
+    if api_base:
+        kwargs["api_base"] = api_base
     if tools:
         kwargs["tools"] = tools
     if tool_choice:
@@ -54,5 +73,5 @@ def get_completion(messages: list[dict], tools: list[dict] | None = None, tool_c
     try:
         return litellm.completion(**kwargs)
     except Exception as e:  # noqa: BLE001 - any provider failure degrades gracefully
-        logger.warning("LLM completion failed: %s", e)
+        logger.warning("LLM completion failed (model=%s): %s", model, e)
         raise LLMUnavailableError(str(e)) from e
