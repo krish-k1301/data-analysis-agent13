@@ -91,7 +91,7 @@ def audit_rules_node(state: AnalysisState) -> dict:
     findings: list[dict] = []
     for rule in rules:
         try:
-            findings.extend(rule.evaluate(df, config, {"statistics": {}}))
+            findings.extend(rule.evaluate(df, config))
         except Exception as e:  # noqa: BLE001 - one bad rule must not crash the run
             logger.warning("Rule %s failed: %s", rule.rule_id, e)
     return {"findings": findings}

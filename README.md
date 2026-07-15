@@ -31,6 +31,8 @@ graph TD
 
 `audit_rules` and `statistics` run in parallel once `validate_schema` passes, then fan into `risk_score`. This matches the node wiring in `backend/app/workflow/graph.py` exactly (see `backend/generate_workflow_image.py` for a PNG rendered straight from the compiled graph object).
 
+Because `audit_rules` and `statistics` run concurrently, rules in `audit_rules` cannot depend on `statistics` output — there's no ordering guarantee between the two branches. `AuditRule.evaluate(df, config)` reflects this: it only receives the dataframe and rule config, not statistics. A rule wanting to use dataset-wide statistics would require making `statistics` a real upstream dependency of `audit_rules` in the graph, trading away the parallelism for that capability.
+
 ## Tech stack
 
 - Frontend: Next.js (dashboard, upload, findings review, data query)

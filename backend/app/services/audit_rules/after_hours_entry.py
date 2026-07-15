@@ -12,7 +12,7 @@ class AfterHoursEntryRule(AuditRule):
     category = "timing_and_calendar"
     required_columns = ["timestamp"]
 
-    def evaluate(self, df: pd.DataFrame, config: dict[str, Any], context: dict[str, Any]) -> list[dict]:
+    def evaluate(self, df: pd.DataFrame, config: dict[str, Any]) -> list[dict]:
         if not self.has_required_columns(df):
             return []
 

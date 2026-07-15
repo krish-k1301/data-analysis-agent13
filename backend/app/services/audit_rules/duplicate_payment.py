@@ -12,7 +12,7 @@ class DuplicatePaymentRule(AuditRule):
     category = "duplicate_and_completeness"
     required_columns = ["vendor", "amount", "date"]
 
-    def evaluate(self, df: pd.DataFrame, config: dict[str, Any], context: dict[str, Any]) -> list[dict]:
+    def evaluate(self, df: pd.DataFrame, config: dict[str, Any]) -> list[dict]:
         if not self.has_required_columns(df):
             return []
 

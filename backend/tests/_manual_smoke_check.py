@@ -46,7 +46,7 @@ def main():
     findings = []
     for rule in rule_registry.get_enabled_rules(None):
         try:
-            rule_findings = rule.evaluate(df_mapped, config, {"statistics": {}})
+            rule_findings = rule.evaluate(df_mapped, config)
         except Exception as e:  # noqa: BLE001
             print(f"  RULE ERROR {rule.rule_id}: {e}")
             raise

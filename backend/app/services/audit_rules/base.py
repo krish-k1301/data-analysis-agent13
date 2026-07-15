@@ -17,7 +17,7 @@ class AuditRule(ABC):
         return all(col in df.columns and df[col].notna().any() for col in self.required_columns)
 
     @abstractmethod
-    def evaluate(self, df: pd.DataFrame, config: dict[str, Any], context: dict[str, Any]) -> list[dict]:
+    def evaluate(self, df: pd.DataFrame, config: dict[str, Any]) -> list[dict]:
         """Return a list of raw finding dicts (no dataset_id/finding_id/risk_score yet)."""
         raise NotImplementedError
 

@@ -12,7 +12,7 @@ class SingleVendorConcentrationRule(AuditRule):
     category = "vendor_behaviour"
     required_columns = ["vendor", "amount"]
 
-    def evaluate(self, df: pd.DataFrame, config: dict[str, Any], context: dict[str, Any]) -> list[dict]:
+    def evaluate(self, df: pd.DataFrame, config: dict[str, Any]) -> list[dict]:
         if not self.has_required_columns(df):
             return []
 

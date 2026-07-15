@@ -14,7 +14,7 @@ class MissingRequiredFieldRule(AuditRule):
     category = "duplicate_and_completeness"
     required_columns = []  # dynamic: at least one of CHECKED_FIELDS must be mapped
 
-    def evaluate(self, df: pd.DataFrame, config: dict[str, Any], context: dict[str, Any]) -> list[dict]:
+    def evaluate(self, df: pd.DataFrame, config: dict[str, Any]) -> list[dict]:
         present_fields = [f for f in CHECKED_FIELDS if f in df.columns]
         if not present_fields:
             return []

@@ -18,7 +18,7 @@ class BenfordsLawRule(AuditRule):
     category = "amount_patterns"
     required_columns = ["amount"]
 
-    def evaluate(self, df: pd.DataFrame, config: dict[str, Any], context: dict[str, Any]) -> list[dict]:
+    def evaluate(self, df: pd.DataFrame, config: dict[str, Any]) -> list[dict]:
         if not self.has_required_columns(df):
             return []
 
