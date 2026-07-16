@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { getAllFindings, getDatasets } from "@/lib/api";
 import { findingStatusBadgeClass, findingStatusLabel, severityBadgeClass } from "@/lib/format";
@@ -28,6 +28,16 @@ export default function FindingsPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("risk_score");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+
+  const toggleExpanded = (findingId: string) => {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      if (next.has(findingId)) next.delete(findingId);
+      else next.add(findingId);
+      return next;
+    });
+  };
 
   useEffect(() => {
     Promise.all([getAllFindings(), getDatasets()])
@@ -198,6 +208,7 @@ export default function FindingsPage() {
                 <table>
                   <thead>
                     <tr>
+                      <th style={{ width: "2rem" }} />
                       <th className="sortable" onClick={() => handleSort("rule_name")}>
                         Rule{sortIndicator("rule_name")}
                       </th>
@@ -216,25 +227,67 @@ export default function FindingsPage() {
                     </tr>
                   </thead>
                   <tbody>
-                    {group.findings.map((f) => (
-                      <tr key={f.finding_id} className="link-row">
-                        <td>
-                          <Link href={`/findings/${f.finding_id}`} style={{ color: "var(--text-primary)" }}>
-                            {f.rule_name}
-                          </Link>
-                        </td>
-                        <td>
-                          <span className={`badge ${severityBadgeClass(f.severity)}`}>{f.severity}</span>
-                        </td>
-                        <td className="cell-mono cell-right">{f.flagged_rows.length}</td>
-                        <td>
-                          <span className={`badge ${findingStatusBadgeClass(f.status)}`}>
-                            {findingStatusLabel(f.status)}
-                          </span>
-                        </td>
-                        <td className="cell-mono cell-right">{f.risk_score}</td>
-                      </tr>
-                    ))}
+                    {group.findings.map((f) => {
+                      const isOpen = expanded.has(f.finding_id);
+                      const flaggedColumns = Array.isArray(f.trace?.fields_compared)
+                        ? (f.trace.fields_compared as unknown[]).map(String)
+                        : [];
+                      const rowIndices = f.flagged_rows
+                        .map((r) => r.row_index)
+                        .filter((v): v is number => typeof v === "number");
+
+                      return (
+                        <Fragment key={f.finding_id}>
+                          <tr className="link-row">
+                            <td>
+                              <button
+                                type="button"
+                                className="accordion-icon"
+                                aria-label={isOpen ? "Collapse" : "Expand"}
+                                onClick={() => toggleExpanded(f.finding_id)}
+                                style={{ background: "none", border: "none", cursor: "pointer", padding: 0 }}
+                              >
+                                {isOpen ? "▼" : "▶"}
+                              </button>
+                            </td>
+                            <td>
+                              <Link href={`/findings/${f.finding_id}`} style={{ color: "var(--text-primary)" }}>
+                                {f.rule_name}
+                              </Link>
+                            </td>
+                            <td>
+                              <span className={`badge ${severityBadgeClass(f.severity)}`}>{f.severity}</span>
+                            </td>
+                            <td className="cell-mono cell-right">{f.flagged_rows.length}</td>
+                            <td>
+                              <span className={`badge ${findingStatusBadgeClass(f.status)}`}>
+                                {findingStatusLabel(f.status)}
+                              </span>
+                            </td>
+                            <td className="cell-mono cell-right">{f.risk_score}</td>
+                          </tr>
+                          {isOpen && (
+                            <tr>
+                              <td />
+                              <td colSpan={5}>
+                                <div style={{ padding: "var(--space-sm) 0" }}>
+                                  <div style={{ marginBottom: "var(--space-xs)" }}>
+                                    <strong>Flagged columns:</strong>{" "}
+                                    {flaggedColumns.length > 0 ? flaggedColumns.join(", ") : "—"}
+                                  </div>
+                                  <div>
+                                    <strong>Dataset row index{rowIndices.length !== 1 ? "es" : ""}:</strong>{" "}
+                                    <span className="cell-mono">
+                                      {rowIndices.length > 0 ? rowIndices.join(", ") : "—"}
+                                    </span>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
+                        </Fragment>
+                      );
+                    })}
                   </tbody>
                 </table>
               </div>

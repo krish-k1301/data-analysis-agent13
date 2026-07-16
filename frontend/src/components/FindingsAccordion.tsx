@@ -63,28 +63,40 @@ function AccordionRow({ group }: { group: FindingGroup }) {
                   <th>Severity</th>
                   <th>Risk Score</th>
                   <th>Status</th>
-                  <th>Flagged Rows</th>
+                  <th>Flagged Columns</th>
+                  <th>Row Index(es)</th>
                   <th>Flagged On</th>
                 </tr>
               </thead>
               <tbody>
-                {group.findings.map((f) => (
-                  <tr key={f.finding_id} className="link-row">
-                    <td>
-                      <Link href={`/findings/${f.finding_id}`} style={{ color: "var(--text-primary)" }}>
-                        <span className={`badge ${severityBadgeClass(f.severity)}`}>{f.severity}</span>
-                      </Link>
-                    </td>
-                    <td className="cell-mono cell-right">{f.risk_score}</td>
-                    <td>
-                      <span className={`badge ${findingStatusBadgeClass(f.status)}`}>
-                        {findingStatusLabel(f.status)}
-                      </span>
-                    </td>
-                    <td className="cell-mono cell-right">{f.flagged_rows.length}</td>
-                    <td className="cell-mono">{formatDateTime(f.created_at)}</td>
-                  </tr>
-                ))}
+                {group.findings.map((f) => {
+                  const flaggedColumns = Array.isArray(f.trace?.fields_compared)
+                    ? (f.trace.fields_compared as unknown[]).map(String)
+                    : [];
+                  const rowIndices = f.flagged_rows
+                    .map((r) => r.row_index)
+                    .filter((v): v is number => typeof v === "number");
+                  return (
+                    <tr key={f.finding_id} className="link-row">
+                      <td>
+                        <Link href={`/findings/${f.finding_id}`} style={{ color: "var(--text-primary)" }}>
+                          <span className={`badge ${severityBadgeClass(f.severity)}`}>{f.severity}</span>
+                        </Link>
+                      </td>
+                      <td className="cell-mono cell-right">{f.risk_score}</td>
+                      <td>
+                        <span className={`badge ${findingStatusBadgeClass(f.status)}`}>
+                          {findingStatusLabel(f.status)}
+                        </span>
+                      </td>
+                      <td style={{ fontSize: "12px" }}>{flaggedColumns.length > 0 ? flaggedColumns.join(", ") : "—"}</td>
+                      <td className="cell-mono" style={{ fontSize: "12px" }}>
+                        {rowIndices.length > 0 ? rowIndices.join(", ") : "—"}
+                      </td>
+                      <td className="cell-mono">{formatDateTime(f.created_at)}</td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
