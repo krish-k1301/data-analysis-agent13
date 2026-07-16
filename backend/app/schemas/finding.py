@@ -1,7 +1,8 @@
-from datetime import datetime
 from typing import Any
 
 from pydantic import BaseModel, ConfigDict
+
+from app.schemas.common import UTCDatetime
 
 
 class FindingOut(BaseModel):
@@ -20,7 +21,7 @@ class FindingOut(BaseModel):
     llm_enriched_explanation: str | None = None
     trace: dict[str, Any] = {}
     status: str
-    created_at: datetime
+    created_at: UTCDatetime
 
 
 class ReviewActionIn(BaseModel):
@@ -37,4 +38,4 @@ class ReviewActionOut(BaseModel):
     action: str
     note: str | None = None
     reviewer: str | None = None
-    created_at: datetime
+    created_at: UTCDatetime

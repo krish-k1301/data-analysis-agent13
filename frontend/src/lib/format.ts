@@ -36,7 +36,11 @@ export function datasetStatusBadgeClass(status: DatasetStatus | string): string 
 }
 
 export function formatDateTime(iso: string): string {
-  return new Date(iso).toLocaleString();
+  return new Date(iso).toLocaleString("en-IN", {
+    timeZone: "Asia/Kolkata",
+    dateStyle: "medium",
+    timeStyle: "medium",
+  });
 }
 
 export function formatNumber(n: number): string {

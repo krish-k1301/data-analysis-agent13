@@ -1,7 +1,8 @@
-from datetime import datetime
 from typing import Any
 
 from pydantic import BaseModel, ConfigDict
+
+from app.schemas.common import UTCDatetime
 
 
 class DatasetOut(BaseModel):
@@ -19,8 +20,8 @@ class DatasetOut(BaseModel):
     enabled_rules: list[str] | None = None
     custom_rule_configs: dict[str, Any] | None = None
     analysis_summary: str | None = None
-    created_at: datetime
-    updated_at: datetime
+    created_at: UTCDatetime
+    updated_at: UTCDatetime
 
 
 class DatasetUploadResponse(BaseModel):
