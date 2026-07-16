@@ -153,6 +153,8 @@ def rerun_dataset(dataset_id: str, background_tasks: BackgroundTasks, db: Sessio
         raise HTTPException(status_code=404, detail="Dataset not found")
     if not dataset.raw_file_path or not os.path.exists(dataset.raw_file_path):
         raise HTTPException(status_code=400, detail="Original upload file is no longer available")
+    if dataset.status == "running":
+        raise HTTPException(status_code=409, detail="A pipeline run is already in progress for this dataset")
 
     reset_dataset_for_rerun(db, dataset)
     background_tasks.add_task(run_pipeline_job, dataset_id)

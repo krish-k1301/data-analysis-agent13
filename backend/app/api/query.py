@@ -18,7 +18,7 @@ def run_query(dataset_id: str, payload: QueryRequest, db: Session = Depends(get_
     dataset = db.query(Dataset).filter(Dataset.id == dataset_id).first()
     if dataset is None:
         raise HTTPException(status_code=404, detail="Dataset not found")
-    if not dataset.processed_parquet_path:
+    if dataset.status != "complete" or not dataset.processed_parquet_path:
         raise HTTPException(status_code=400, detail="Dataset is not ready for querying yet")
 
     try:
@@ -36,7 +36,7 @@ def ask_dataset(dataset_id: str, payload: NLQueryRequest, db: Session = Depends(
     dataset = db.query(Dataset).filter(Dataset.id == dataset_id).first()
     if dataset is None:
         raise HTTPException(status_code=404, detail="Dataset not found")
-    if not dataset.processed_parquet_path:
+    if dataset.status != "complete" or not dataset.processed_parquet_path:
         raise HTTPException(status_code=400, detail="Dataset is not ready for querying yet")
 
     profile = (

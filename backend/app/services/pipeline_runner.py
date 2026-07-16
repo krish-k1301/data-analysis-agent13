@@ -63,4 +63,5 @@ def reset_dataset_for_rerun(db, dataset: Dataset) -> None:
     dataset.status = "queued"
     dataset.progress_pct = 0
     dataset.error = None
+    dataset.processed_parquet_path = None
     db.commit()

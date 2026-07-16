@@ -1,4 +1,5 @@
 import os
+import uuid
 
 import pandas as pd
 
@@ -32,5 +33,7 @@ def write_parquet(df: pd.DataFrame, dataset_id: str, upload_dir: str) -> str:
     dataset_dir = os.path.join(upload_dir, dataset_id)
     os.makedirs(dataset_dir, exist_ok=True)
     parquet_path = os.path.join(dataset_dir, "processed.parquet")
-    df.to_parquet(parquet_path, index=False)
+    tmp_path = os.path.join(dataset_dir, f"processed.parquet.{uuid.uuid4().hex}.tmp")
+    df.to_parquet(tmp_path, index=False)
+    os.replace(tmp_path, parquet_path)
     return parquet_path
